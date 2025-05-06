@@ -8,8 +8,8 @@
 		"Almiris (Alminoris)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/Alminoris/AestheticWindows"
 	},
 	"license": "MIT",
 	"icon": "assets/aestheticwindows/icon.png",
@@ -29,7 +29,7 @@
 		"aestheticwindows.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
+		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
