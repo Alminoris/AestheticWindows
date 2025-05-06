@@ -5,19 +5,14 @@ import net.alminoris.aestheticwindows.block.ModBlocks;
 import net.alminoris.aestheticwindows.util.helper.BlockSetsHelper;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups
 {
-    public static final ItemGroup AWS_TAB = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(AestheticWindows.MOD_ID, "awstab"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.awstab"))
+    public static final ItemGroup AWS_TAB = FabricItemGroup.builder(new Identifier(AestheticWindows.MOD_ID, "awstab")).displayName(Text.translatable("itemgroup.awstab"))
                     .icon(() -> new ItemStack(ModBlocks.WINDOWS.get("oak"))).entries((displayContext, entries) ->
                     {
                         for(String name : BlockSetsHelper.STONES)
@@ -167,7 +162,7 @@ public class ModItemGroups
                                 entries.add(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name));
                             }
                         }
-                    }).build());
+                    }).build();
 
     public static void registerItemGroups()
     {
