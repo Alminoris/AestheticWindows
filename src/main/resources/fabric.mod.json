@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aestheticwindows",
+	"version": "${version}",
+	"name": "Aesthetic Windows",
+	"description": "This mod is about various decorative and functional windows from vanilla and modded materials. Enjoy)",
+	"authors": [
+		"Almiris (Alminoris)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/aestheticwindows/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.alminoris.aestheticwindows.AestheticWindows"
+		],
+		"client": [
+			"net.alminoris.aestheticwindows.AestheticWindowsClient"
+		],
+		"fabric-datagen": [
+			"net.alminoris.aestheticwindows.AestheticWindowsDataGenerator"
+		]
+	},
+	"mixins": [
+		"aestheticwindows.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
