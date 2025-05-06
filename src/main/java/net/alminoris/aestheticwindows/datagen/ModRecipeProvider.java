@@ -24,7 +24,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
     {
         for(String name : BlockSetsHelper.STONES)
         {
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft",name.equals("basalt_side") ? "basalt" :
+            Block block = Registry.BLOCK.get(new Identifier("minecraft",name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
 
@@ -37,7 +37,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
         for(String name : BlockSetsHelper.WOODS)
         {
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft",name+"_planks"));
+            Block block = Registry.BLOCK.get(new Identifier("minecraft",name+"_planks"));
 
             offerStonecuttingRecipe(recipeExporter, ModBlocks.WINDOWS.get(name), block, 1);
             offerStonecuttingRecipe(recipeExporter, ModBlocks.VERTICAL_WINDOWS.get(name), block, 1);
@@ -47,7 +47,7 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
         for(String name : BlockSetsHelper.STONES)
         {
-            Block block = Registry.BLOCK.get(Identifier.of("minecraft",name.equals("basalt_side") ? "basalt" :
+            Block block = Registry.BLOCK.get(new Identifier("minecraft",name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
             offerStonecuttingRecipe(recipeExporter, ModBlocks.WINDOWS.get(name), block, 1);

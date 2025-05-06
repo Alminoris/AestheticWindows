@@ -278,7 +278,7 @@ public class ModModelProvider extends FabricModelProvider
                 "right", true);
 
         ModJsonHelper.createBlockstate(ModJsonTemplates.SIMPLE_WINDOW_BLOCKSTATE_TEMPLATE, Registry.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, new Identifier(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
     }
 
     public final void registerStoneWindow(BlockStateModelGenerator blockStateModelGenerator, String normal,
@@ -328,7 +328,7 @@ public class ModModelProvider extends FabricModelProvider
                 "right", true);
 
         ModJsonHelper.createBlockstate(ModJsonTemplates.SIMPLE_WINDOW_BLOCKSTATE_TEMPLATE, Registry.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, new Identifier(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
     }
 
     public final void registerVerticalWindow(BlockStateModelGenerator blockStateModelGenerator,
@@ -425,7 +425,7 @@ public class ModModelProvider extends FabricModelProvider
                 "down", true, true);
 
         ModJsonHelper.createBlockstate(ModJsonTemplates.VERTICAL_WINDOW_BLOCKSTATE_TEMPLATE, Registry.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, new Identifier(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
     }
 
     public final void registerStoneVerticalWindow(BlockStateModelGenerator blockStateModelGenerator,
@@ -520,7 +520,7 @@ public class ModModelProvider extends FabricModelProvider
                 "down", true, true);
 
         ModJsonHelper.createBlockstate(ModJsonTemplates.VERTICAL_WINDOW_BLOCKSTATE_TEMPLATE, Registry.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, new Identifier(AestheticWindows.MOD_ID, "block/"+Registry.BLOCK.getId(table).getPath()));
     }
 
     @Override
