@@ -45,7 +45,7 @@ public class YAxisRotatedBlock extends Block
     }
 
     @Override
-    protected BlockRenderType getRenderType(BlockState state)
+    public BlockRenderType getRenderType(BlockState state)
     {
         return BlockRenderType.MODEL;
     }
