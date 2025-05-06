@@ -140,14 +140,14 @@ public class FourpaneWindowBlock extends YAxisRotatedBlock
     public BlockState getPlacementState(ItemPlacementContext ctx)
     {
         boolean waterlogged = ctx.getWorld().getFluidState(ctx.getBlockPos()).getFluid() == Fluids.WATER;
-        return this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing()).with(WATERLOGGED, waterlogged);
+        return this.getDefaultState().with(FACING, ctx.getPlayer().getHorizontalFacing()).with(WATERLOGGED, waterlogged);
     }
 
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos)
     {
         if (state.get(WATERLOGGED))
-            world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
 
         return updateGardenWindowVariant(state, world, pos);
     }

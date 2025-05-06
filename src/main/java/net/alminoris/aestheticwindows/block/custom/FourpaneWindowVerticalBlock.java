@@ -184,7 +184,7 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
     {
         boolean waterlogged = ctx.getWorld().getFluidState(ctx.getBlockPos()).getFluid() == Fluids.WATER;
         return this.getDefaultState()
-                .with(FACING, ctx.getHorizontalPlayerFacing())
+                .with(FACING, ctx.getPlayer().getHorizontalFacing())
                 .with(WATERLOGGED, waterlogged);
     }
 
@@ -192,7 +192,7 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos)
     {
         if (state.get(WATERLOGGED))
-            world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
 
         return updateVerticalWindowVariant(state, world, pos);
     }
