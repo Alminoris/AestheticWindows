@@ -143,7 +143,7 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
                     .with(FourpaneEmptyWindowVerticalBlock.VARIANT, FourpaneEmptyWindowVerticalBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(FourpaneEmptyWindowVerticalBlock.OPEN, state.get(OPEN))
                     .with(FourpaneEmptyWindowVerticalBlock.WATERLOGGED, state.get(WATERLOGGED))
-                    .with(FourpaneEmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)), 2);
+                    .with(FourpaneEmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)), 3);
         }
     }
 
@@ -253,7 +253,7 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
             BlockPos neighborPos = pos.offset(direction);
             BlockState neighborState = world.getBlockState(neighborPos);
 
-            if (neighborState.getBlock() instanceof FourpaneWindowVerticalBlock)
+            if (neighborState.getBlock() instanceof FourpaneWindowVerticalBlock || neighborState.getBlock() instanceof FourpaneEmptyWindowVerticalBlock)
                 world.setBlockState(neighborPos, updateVerticalWindowVariant(neighborState, world, neighborPos));
         }
     }
@@ -284,6 +284,6 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
     private boolean isWindow(WorldAccess world, BlockPos pos, Direction facing)
     {
         BlockState state = world.getBlockState(pos);
-        return state.getBlock() instanceof FourpaneWindowVerticalBlock && state.get(FACING) == facing;
+        return (state.getBlock() instanceof FourpaneWindowVerticalBlock || state.getBlock() instanceof FourpaneEmptyWindowVerticalBlock) && state.get(FACING) == facing;
     }
 }
