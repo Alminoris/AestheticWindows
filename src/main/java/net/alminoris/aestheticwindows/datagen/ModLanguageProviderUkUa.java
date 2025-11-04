@@ -24,6 +24,10 @@ public class ModLanguageProviderUkUa extends FabricLanguageProvider
         woodNStoneObjects.put("vertical_window_", "Вертикальне вікно з %s");
         woodNStoneObjects.put("fourpane_window_", "Чотирисекційне вікно з %s");
         woodNStoneObjects.put("vertical_fourpane_window_", "Вертикальне чотирисекційне вікно з %s");
+        woodNStoneObjects.put("empty_window_", "Віконна рама з %s");
+        woodNStoneObjects.put("vertical_empty_window_", "Вертикальна віконна рама з %s");
+        woodNStoneObjects.put("fourpane_empty_window_", "Чотирисекційна віконна рама з %s");
+        woodNStoneObjects.put("vertical_fourpane_empty_window_", "Вертикальна чотирисекційна віконна рама з %s");
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();
         stoneMaterials.put("stone", "каменю");

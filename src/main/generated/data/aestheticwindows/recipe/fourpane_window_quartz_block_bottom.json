@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aestheticwindows:fourpane_empty_window_quartz_block_bottom"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticwindows:fourpane_window_quartz_block_bottom"
+  }
+}

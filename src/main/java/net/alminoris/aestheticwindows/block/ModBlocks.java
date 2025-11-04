@@ -52,6 +52,58 @@ public class ModBlocks
         }
     }};
 
+    public static final Dictionary<String, Block> EMPTY_WINDOWS = new Hashtable<>()
+    {{
+        for(String name : BlockSetsHelper.getWoods())
+        {
+            put(name, registerBlock("empty_window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+        }
+
+        for(String name : BlockSetsHelper.getStones())
+        {
+            put(name, registerBlock("empty_window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+        }
+    }};
+
+    public static final Dictionary<String, Block> VERTICAL_EMPTY_WINDOWS = new Hashtable<>()
+    {{
+        for(String name : BlockSetsHelper.getWoods())
+        {
+            put(name, registerBlock("vertical_empty_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+        }
+
+        for(String name : BlockSetsHelper.getStones())
+        {
+            put(name, registerBlock("vertical_empty_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+        }
+    }};
+
+    public static final Dictionary<String, Block> FOURPANE_EMPTY_WINDOWS = new Hashtable<>()
+    {{
+        for(String name : BlockSetsHelper.getWoods())
+        {
+            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+        }
+
+        for(String name : BlockSetsHelper.getStones())
+        {
+            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+        }
+    }};
+
+    public static final Dictionary<String, Block> VERTICAL_FOURPANE_EMPTY_WINDOWS = new Hashtable<>()
+    {{
+        for(String name : BlockSetsHelper.getWoods())
+        {
+            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+        }
+
+        for(String name : BlockSetsHelper.getStones())
+        {
+            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+        }
+    }};
+
     public static Block registerBlock(String name, Block block)
     {
         registerBlockItem(name, block);

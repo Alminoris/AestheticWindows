@@ -20,10 +20,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider
     {
         for(String name : BlockSetsHelper.getWoodsNStones())
         {
-            addDrop(ModBlocks.WINDOWS.get(name));
-            addDrop(ModBlocks.VERTICAL_WINDOWS.get(name));
-            addDrop(ModBlocks.FOURPANE_WINDOWS.get(name));
-            addDrop(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name));
+            addDrop(ModBlocks.EMPTY_WINDOWS.get(name));
+            addDrop(ModBlocks.VERTICAL_EMPTY_WINDOWS.get(name));
+            addDrop(ModBlocks.FOURPANE_EMPTY_WINDOWS.get(name));
+            addDrop(ModBlocks.VERTICAL_FOURPANE_EMPTY_WINDOWS.get(name));
         }
     }
 }
