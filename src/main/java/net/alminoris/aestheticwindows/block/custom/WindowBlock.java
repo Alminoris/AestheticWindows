@@ -120,18 +120,18 @@ public class WindowBlock extends YAxisRotatedBlock
     }
 
     @Override
-    public BlockState onBreak(World world, BlockPos pos, BlockState state, PlayerEntity player)
+    public void onBroken(WorldAccess world, BlockPos pos, BlockState state)
     {
-        if (!world.isClient && !getMaterialName().isEmpty())
+        super.onBroken(world, pos, state);
+
+        if (!world.isClient() && !getMaterialName().isEmpty())
         {
             world.setBlockState(pos, ModBlocks.EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(EmptyWindowBlock.FACING, state.get(FACING))
                     .with(EmptyWindowBlock.VARIANT, EmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(EmptyWindowBlock.OPEN, state.get(OPEN))
-                    .with(EmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)));
+                    .with(EmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 3);
         }
-
-        return super.onBreak(world, pos, state, player);
     }
 
     private String getMaterialName()

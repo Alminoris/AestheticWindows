@@ -119,18 +119,18 @@ public class FourpaneWindowBlock extends YAxisRotatedBlock
     }
 
     @Override
-    public BlockState onBreak(World world, BlockPos pos, BlockState state, PlayerEntity player)
+    public void onBroken(WorldAccess world, BlockPos pos, BlockState state)
     {
-        if (!world.isClient && !getMaterialName().isEmpty())
+        super.onBroken(world, pos, state);
+
+        if (!world.isClient() && !getMaterialName().isEmpty())
         {
             world.setBlockState(pos, ModBlocks.FOURPANE_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(FourpaneEmptyWindowBlock.FACING, state.get(FACING))
                     .with(FourpaneEmptyWindowBlock.VARIANT, FourpaneEmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(FourpaneEmptyWindowBlock.OPEN, state.get(OPEN))
-                    .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)));
+                    .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 3);
         }
-
-        return super.onBreak(world, pos, state, player);
     }
 
     private String getMaterialName()
