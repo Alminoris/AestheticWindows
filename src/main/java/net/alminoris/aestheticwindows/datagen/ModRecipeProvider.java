@@ -14,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 
+import java.util.Arrays;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider
@@ -210,6 +211,9 @@ public class ModRecipeProvider extends FabricRecipeProvider
 
         for (String name: BlockSetsHelper.getWoodsNStones())
         {
+            if (Arrays.asList(BlockSetsHelper.STONES).contains(name) || Arrays.asList(BlockSetsHelper.WOODS).contains(name))
+                continue;
+
             ModJsonHelper.createShapelessRecipe("minecraft:glass_pane",
                     "aestheticwindows:"+Registries.BLOCK.getId(ModBlocks.EMPTY_WINDOWS.get(name)).getPath(),
                     Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath());
