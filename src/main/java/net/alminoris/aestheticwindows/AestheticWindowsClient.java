@@ -11,15 +11,7 @@ public class AestheticWindowsClient implements ClientModInitializer
     @Override
     public void onInitializeClient()
     {
-        for(String name : BlockSetsHelper.getWoods())
-        {
-            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WINDOWS.get(name), RenderLayer.getTranslucent());
-            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.VERTICAL_WINDOWS.get(name), RenderLayer.getTranslucent());
-            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOURPANE_WINDOWS.get(name), RenderLayer.getTranslucent());
-            BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name), RenderLayer.getTranslucent());
-        }
-
-        for(String name : BlockSetsHelper.getStones())
+        for(String name : BlockSetsHelper.getWoodsNStones())
         {
             BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WINDOWS.get(name), RenderLayer.getTranslucent());
             BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.VERTICAL_WINDOWS.get(name), RenderLayer.getTranslucent());

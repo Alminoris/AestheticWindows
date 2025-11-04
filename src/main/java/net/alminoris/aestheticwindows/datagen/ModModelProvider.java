@@ -23,16 +23,6 @@ public class ModModelProvider extends FabricModelProvider
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator)
     {
-        for(String name : BlockSetsHelper.STONES)
-        {
-
-        }
-
-        for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-        {
-
-        }
-
         for(String name : BlockSetsHelper.WOODS)
         {
             registerWindow(blockStateModelGenerator,
@@ -151,6 +141,162 @@ public class ModModelProvider extends FabricModelProvider
         }
 
         for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+        {
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.WINDOW, ModJsonTemplates.WINDOW_CENTER,
+                    ModJsonTemplates.WINDOW_LEFT, ModJsonTemplates.WINDOW_RIGHT,
+                    ModJsonTemplates.WINDOW_OPEN, ModJsonTemplates.WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.WINDOW_OPEN_LEFT, ModJsonTemplates.WINDOW_OPEN_RIGHT,
+                    ModBlocks.WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.VERTICAL_WINDOW, ModJsonTemplates.VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP, ModJsonTemplates.VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN, ModJsonTemplates.VERTICAL_WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_UP, ModJsonTemplates.VERTICAL_WINDOW_OPEN_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_WINDOW, ModJsonTemplates.FOURPANE_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT, ModJsonTemplates.FOURPANE_WINDOW_RIGHT,
+                    ModJsonTemplates.FOURPANE_WINDOW_OPEN, ModJsonTemplates.FOURPANE_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT_OPEN, ModJsonTemplates.FOURPANE_WINDOW_RIGHT_OPEN,
+                    ModBlocks.FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+        }
+
+        for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+        {
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.WINDOW, ModJsonTemplates.WINDOW_CENTER,
+                    ModJsonTemplates.WINDOW_LEFT, ModJsonTemplates.WINDOW_RIGHT,
+                    ModJsonTemplates.WINDOW_OPEN, ModJsonTemplates.WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.WINDOW_OPEN_LEFT, ModJsonTemplates.WINDOW_OPEN_RIGHT,
+                    ModBlocks.WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.VERTICAL_WINDOW, ModJsonTemplates.VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP, ModJsonTemplates.VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN, ModJsonTemplates.VERTICAL_WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_UP, ModJsonTemplates.VERTICAL_WINDOW_OPEN_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_WINDOW, ModJsonTemplates.FOURPANE_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT, ModJsonTemplates.FOURPANE_WINDOW_RIGHT,
+                    ModJsonTemplates.FOURPANE_WINDOW_OPEN, ModJsonTemplates.FOURPANE_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT_OPEN, ModJsonTemplates.FOURPANE_WINDOW_RIGHT_OPEN,
+                    ModBlocks.FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+        }
+
+        for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+        {
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.WINDOW, ModJsonTemplates.WINDOW_CENTER,
+                    ModJsonTemplates.WINDOW_LEFT, ModJsonTemplates.WINDOW_RIGHT,
+                    ModJsonTemplates.WINDOW_OPEN, ModJsonTemplates.WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.WINDOW_OPEN_LEFT, ModJsonTemplates.WINDOW_OPEN_RIGHT,
+                    ModBlocks.WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.VERTICAL_WINDOW, ModJsonTemplates.VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP, ModJsonTemplates.VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN, ModJsonTemplates.VERTICAL_WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_UP, ModJsonTemplates.VERTICAL_WINDOW_OPEN_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_WINDOW, ModJsonTemplates.FOURPANE_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT, ModJsonTemplates.FOURPANE_WINDOW_RIGHT,
+                    ModJsonTemplates.FOURPANE_WINDOW_OPEN, ModJsonTemplates.FOURPANE_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT_OPEN, ModJsonTemplates.FOURPANE_WINDOW_RIGHT_OPEN,
+                    ModBlocks.FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+        }
+
+        for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+        {
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.WINDOW, ModJsonTemplates.WINDOW_CENTER,
+                    ModJsonTemplates.WINDOW_LEFT, ModJsonTemplates.WINDOW_RIGHT,
+                    ModJsonTemplates.WINDOW_OPEN, ModJsonTemplates.WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.WINDOW_OPEN_LEFT, ModJsonTemplates.WINDOW_OPEN_RIGHT,
+                    ModBlocks.WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.VERTICAL_WINDOW, ModJsonTemplates.VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP, ModJsonTemplates.VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN, ModJsonTemplates.VERTICAL_WINDOW_OPEN_CENTER,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_UP, ModJsonTemplates.VERTICAL_WINDOW_OPEN_DOWN,
+                    ModJsonTemplates.VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_WINDOW, ModJsonTemplates.FOURPANE_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT, ModJsonTemplates.FOURPANE_WINDOW_RIGHT,
+                    ModJsonTemplates.FOURPANE_WINDOW_OPEN, ModJsonTemplates.FOURPANE_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_WINDOW_LEFT_OPEN, ModJsonTemplates.FOURPANE_WINDOW_RIGHT_OPEN,
+                    ModBlocks.FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+
+            registerVerticalWindow(blockStateModelGenerator,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_CENTER_OPEN_FLIPPED,
+                    ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_UP_OPEN_FLIPPED, ModJsonTemplates.FOURPANE_VERTICAL_WINDOW_DOWN_OPEN_FLIPPED,
+                    ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name), name, "aestheticwindows");
+        }
+
+        for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
         {
             registerWindow(blockStateModelGenerator,
                     ModJsonTemplates.WINDOW, ModJsonTemplates.WINDOW_CENTER,

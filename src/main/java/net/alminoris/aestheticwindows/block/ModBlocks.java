@@ -22,53 +22,33 @@ public class ModBlocks
 {
     public static final Dictionary<String, Block> WINDOWS = new Hashtable<>()
     {{
-        for(String name : BlockSetsHelper.getWoods())
+        for(String name : BlockSetsHelper.getWoodsNStones())
         {
-            put(name, registerBlock("window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS))));
-        }
-
-        for(String name : BlockSetsHelper.getStones())
-        {
-            put(name, registerBlock("window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE))));
         }
     }};
 
     public static final Dictionary<String, Block> VERTICAL_WINDOWS = new Hashtable<>()
     {{
-        for(String name : BlockSetsHelper.getWoods())
+        for(String name : BlockSetsHelper.getWoodsNStones())
         {
-            put(name, registerBlock("vertical_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS))));
-        }
-
-        for(String name : BlockSetsHelper.getStones())
-        {
-            put(name, registerBlock("vertical_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("vertical_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE))));
         }
     }};
 
     public static final Dictionary<String, Block> FOURPANE_WINDOWS = new Hashtable<>()
     {{
-        for(String name : BlockSetsHelper.getWoods())
+        for(String name : BlockSetsHelper.getWoodsNStones())
         {
-            put(name, registerBlock("fourpane_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS))));
-        }
-
-        for(String name : BlockSetsHelper.getStones())
-        {
-            put(name, registerBlock("fourpane_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("fourpane_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE))));
         }
     }};
 
     public static final Dictionary<String, Block> VERTICAL_FOURPANE_WINDOWS = new Hashtable<>()
     {{
-        for(String name : BlockSetsHelper.getWoods())
+        for(String name : BlockSetsHelper.getWoodsNStones())
         {
-            put(name, registerBlock("vertical_fourpane_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS))));
-        }
-
-        for(String name : BlockSetsHelper.getStones())
-        {
-            put(name, registerBlock("vertical_fourpane_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("vertical_fourpane_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.GLASS_PANE))));
         }
     }};
 

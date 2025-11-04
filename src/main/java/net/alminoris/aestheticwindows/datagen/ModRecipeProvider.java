@@ -102,5 +102,65 @@ public class ModRecipeProvider extends FabricRecipeProvider
             ModJsonHelper.createStonecuttingRecipe("wildfields:"+name+"_planks",
                     Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(), "1");
         }
+
+        for(String name : BlockSetsHelper.WT_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("whisperleaftrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("whisperleaftrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("whisperleaftrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("whisperleaftrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(), "1");
+        }
+
+        for(String name : BlockSetsHelper.ST_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("silverwoodtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("silverwoodtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("silverwoodtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("silverwoodtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(), "1");
+        }
+
+        for(String name : BlockSetsHelper.MT_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("missingtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("missingtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("missingtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("missingtrees:"+name+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(), "1");
+        }
+
+        for(String name : BlockSetsHelper.NSS_WOOD_NAMES)
+        {
+            ModJsonHelper.createStonecuttingRecipe("natures_spirit:"+name.replace("_nss", "")+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("natures_spirit:"+name.replace("_nss", "")+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("natures_spirit:"+name.replace("_nss", "")+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath(), "1");
+
+            ModJsonHelper.createStonecuttingRecipe("natures_spirit:"+name.replace("_nss", "")+"_planks",
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(), "1");
+        }
     }
 }
