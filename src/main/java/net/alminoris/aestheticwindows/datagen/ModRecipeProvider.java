@@ -24,19 +24,6 @@ public class ModRecipeProvider extends FabricRecipeProvider
     @Override
     public void generate(RecipeExporter recipeExporter)
     {
-        for(String name : BlockSetsHelper.STONES)
-        {
-            Block block = Registries.BLOCK.get(Identifier.ofVanilla(name.equals("basalt_side") ? "basalt" :
-                    (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
-
-
-        }
-
-        for(String name : BlockSetsHelper.EXTRA_STONES_WF)
-        {
-
-        }
-
         for(String name : BlockSetsHelper.WOODS)
         {
             Block block = Registries.BLOCK.get(Identifier.ofVanilla(name+"_planks"));
