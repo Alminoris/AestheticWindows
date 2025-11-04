@@ -168,7 +168,7 @@ public class FourpaneEmptyWindowBlock extends YAxisRotatedBlock
             BlockPos neighborPos = pos.offset(direction);
             BlockState neighborState = world.getBlockState(neighborPos);
 
-            if (neighborState.getBlock() instanceof FourpaneEmptyWindowBlock)
+            if (neighborState.getBlock() instanceof FourpaneEmptyWindowBlock || neighborState.getBlock() instanceof FourpaneWindowBlock)
                 world.setBlockState(neighborPos, updateGardenWindowVariant(neighborState, world, neighborPos));
         }
     }
@@ -196,6 +196,6 @@ public class FourpaneEmptyWindowBlock extends YAxisRotatedBlock
     private boolean isWindow(WorldAccess world, BlockPos pos, Direction facing)
     {
         BlockState state = world.getBlockState(pos);
-        return state.getBlock() instanceof FourpaneEmptyWindowBlock && state.get(FACING) == facing;
+        return (state.getBlock() instanceof FourpaneEmptyWindowBlock || state.getBlock() instanceof FourpaneWindowBlock) && state.get(FACING) == facing;
     }
 }

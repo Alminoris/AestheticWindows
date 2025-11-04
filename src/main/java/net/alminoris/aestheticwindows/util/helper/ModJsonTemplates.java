@@ -8531,7 +8531,8 @@ public class ModJsonTemplates
     public static String SHAPELESS_RECIPE = """
             {
               "type": "minecraft:crafting_shapeless",
-              "ingredient": [
+              "category": "building_blocks",
+              "ingredients": [
                 {
                     "item": "INGREDIENT_NAME"
                 },

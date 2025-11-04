@@ -211,20 +211,20 @@ public class ModRecipeProvider extends FabricRecipeProvider
         for (String name: BlockSetsHelper.getWoodsNStones())
         {
             ModJsonHelper.createShapelessRecipe("minecraft:glass_pane",
-                    "minecraft:"+Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath(),
-                    Registries.BLOCK.getId(ModBlocks.EMPTY_WINDOWS.get(name)).getPath());
+                    "aestheticwindows:"+Registries.BLOCK.getId(ModBlocks.EMPTY_WINDOWS.get(name)).getPath(),
+                    Registries.BLOCK.getId(ModBlocks.WINDOWS.get(name)).getPath());
 
             ModJsonHelper.createShapelessRecipe("minecraft:glass_pane",
-                    "minecraft:"+Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath(),
-                    Registries.BLOCK.getId(ModBlocks.VERTICAL_EMPTY_WINDOWS.get(name)).getPath());
+                    "aestheticwindows:"+Registries.BLOCK.getId(ModBlocks.VERTICAL_EMPTY_WINDOWS.get(name)).getPath(),
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_WINDOWS.get(name)).getPath());
 
             ModJsonHelper.createShapelessRecipe("minecraft:glass_pane",
-                    "minecraft:"+Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath(),
-                    Registries.BLOCK.getId(ModBlocks.FOURPANE_EMPTY_WINDOWS.get(name)).getPath());
+                    "aestheticwindows:"+Registries.BLOCK.getId(ModBlocks.FOURPANE_EMPTY_WINDOWS.get(name)).getPath(),
+                    Registries.BLOCK.getId(ModBlocks.FOURPANE_WINDOWS.get(name)).getPath());
 
             ModJsonHelper.createShapelessRecipe("minecraft:glass_pane",
-                    "minecraft:"+Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath(),
-                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_EMPTY_WINDOWS.get(name)).getPath());
+                    "aestheticwindows:"+Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_EMPTY_WINDOWS.get(name)).getPath(),
+                    Registries.BLOCK.getId(ModBlocks.VERTICAL_FOURPANE_WINDOWS.get(name)).getPath());
         }
     }
 }

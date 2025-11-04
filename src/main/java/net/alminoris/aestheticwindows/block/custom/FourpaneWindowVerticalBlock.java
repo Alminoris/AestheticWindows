@@ -191,7 +191,7 @@ public class FourpaneWindowVerticalBlock extends YAxisRotatedBlock
 
             BlockState currentState = world.getBlockState(currentPos);
 
-            if (currentState.getBlock() instanceof FourpaneWindowVerticalBlock &&
+            if ((currentState.getBlock() instanceof FourpaneWindowVerticalBlock || currentState.getBlock() instanceof FourpaneEmptyWindowVerticalBlock) &&
                     currentState.get(FACING) == facing)
             {
 

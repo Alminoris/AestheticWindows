@@ -161,7 +161,7 @@ public class EmptyWindowBlock extends YAxisRotatedBlock
             BlockPos neighborPos = pos.offset(direction);
             BlockState neighborState = world.getBlockState(neighborPos);
 
-            if (neighborState.getBlock() instanceof EmptyWindowBlock)
+            if (neighborState.getBlock() instanceof EmptyWindowBlock || neighborState.getBlock() instanceof WindowBlock)
                 world.setBlockState(neighborPos, updateGardenWindowVariant(neighborState, world, neighborPos));
         }
     }
@@ -189,6 +189,6 @@ public class EmptyWindowBlock extends YAxisRotatedBlock
     private boolean isWindow(WorldAccess world, BlockPos pos, Direction facing)
     {
         BlockState state = world.getBlockState(pos);
-        return state.getBlock() instanceof EmptyWindowBlock && state.get(FACING) == facing;
+        return (state.getBlock() instanceof EmptyWindowBlock || state.getBlock() instanceof WindowBlock) && state.get(FACING) == facing;
     }
 }

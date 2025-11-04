@@ -142,7 +142,7 @@ public class EmptyWindowVerticalBlock extends YAxisRotatedBlock
 
             BlockState currentState = world.getBlockState(currentPos);
 
-            if (currentState.getBlock() instanceof EmptyWindowVerticalBlock &&
+            if ((currentState.getBlock() instanceof EmptyWindowVerticalBlock || currentState.getBlock() instanceof WindowVerticalBlock) &&
                     currentState.get(FACING) == facing)
             {
 
