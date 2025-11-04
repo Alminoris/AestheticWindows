@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building_blocks",
+  "ingredients": [
+    {
+        "item": "minecraft:glass_pane"
+    },
+    {
+        "item": "aestheticwindows:empty_window_azalea"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "aestheticwindows:window_azalea"
+  }
+}
