@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:window_quartz_block_bottom_from_quartz_block_stonecutting"
+        "recipe": "aestheticwindows:window_quartz_block_bottom_from_quartz_block_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:window_quartz_block_bottom_from_quartz_block_stonecutting"
+      "aestheticwindows:window_quartz_block_bottom_from_quartz_block_stonecutting"
     ]
   }
 }

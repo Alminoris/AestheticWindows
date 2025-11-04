@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:fourpane_window_crimson_from_crimson_planks_stonecutting"
+        "recipe": "aestheticwindows:fourpane_window_crimson_from_crimson_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:fourpane_window_crimson_from_crimson_planks_stonecutting"
+      "aestheticwindows:fourpane_window_crimson_from_crimson_planks_stonecutting"
     ]
   }
 }

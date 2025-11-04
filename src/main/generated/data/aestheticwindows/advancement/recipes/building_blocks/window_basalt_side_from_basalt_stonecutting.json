@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:window_basalt_side_from_basalt_stonecutting"
+        "recipe": "aestheticwindows:window_basalt_side_from_basalt_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:window_basalt_side_from_basalt_stonecutting"
+      "aestheticwindows:window_basalt_side_from_basalt_stonecutting"
     ]
   }
 }

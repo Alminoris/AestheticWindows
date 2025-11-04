@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:vertical_fourpane_window_warped_from_warped_planks_stonecutting"
+        "recipe": "aestheticwindows:vertical_fourpane_window_warped_from_warped_planks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:vertical_fourpane_window_warped_from_warped_planks_stonecutting"
+      "aestheticwindows:vertical_fourpane_window_warped_from_warped_planks_stonecutting"
     ]
   }
 }

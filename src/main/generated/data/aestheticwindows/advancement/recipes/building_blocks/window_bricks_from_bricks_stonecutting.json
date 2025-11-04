@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:window_bricks_from_bricks_stonecutting"
+        "recipe": "aestheticwindows:window_bricks_from_bricks_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:window_bricks_from_bricks_stonecutting"
+      "aestheticwindows:window_bricks_from_bricks_stonecutting"
     ]
   }
 }
