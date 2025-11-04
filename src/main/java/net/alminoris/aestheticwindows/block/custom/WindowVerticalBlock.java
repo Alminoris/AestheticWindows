@@ -188,7 +188,7 @@ public class WindowVerticalBlock extends YAxisRotatedBlock
                     .with(EmptyWindowVerticalBlock.VARIANT, EmptyWindowVerticalBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(EmptyWindowVerticalBlock.OPEN, state.get(OPEN))
                     .with(EmptyWindowVerticalBlock.WATERLOGGED, state.get(WATERLOGGED))
-                    .with(EmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)), 3);
+                    .with(EmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)), 2);
         }
     }
 

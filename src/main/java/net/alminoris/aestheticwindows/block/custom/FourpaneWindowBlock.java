@@ -129,7 +129,7 @@ public class FourpaneWindowBlock extends YAxisRotatedBlock
                     .with(FourpaneEmptyWindowBlock.FACING, state.get(FACING))
                     .with(FourpaneEmptyWindowBlock.VARIANT, FourpaneEmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(FourpaneEmptyWindowBlock.OPEN, state.get(OPEN))
-                    .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 3);
+                    .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 2);
         }
     }
 

@@ -130,7 +130,7 @@ public class WindowBlock extends YAxisRotatedBlock
                     .with(EmptyWindowBlock.FACING, state.get(FACING))
                     .with(EmptyWindowBlock.VARIANT, EmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(EmptyWindowBlock.OPEN, state.get(OPEN))
-                    .with(EmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 3);
+                    .with(EmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)), 2);
         }
     }
 

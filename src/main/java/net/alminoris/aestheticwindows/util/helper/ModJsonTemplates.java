@@ -8530,7 +8530,7 @@ public class ModJsonTemplates
 
     public static String SHAPELESS_RECIPE = """
             {
-              "type": "minecraft:shapeless",
+              "type": "minecraft:crafting_shapeless",
               "ingredient": [
                 {
                     "item": "INGREDIENT_NAME"
