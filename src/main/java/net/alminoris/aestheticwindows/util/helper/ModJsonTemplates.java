@@ -8531,14 +8531,14 @@ public class ModJsonTemplates
     public static String SHAPELESS_RECIPE = """
             {
               "type": "minecraft:shapeless",
-              "ingredient": {
+              "ingredient": [
                 {
                     "item": "INGREDIENT_NAME"
                 },
                 {
                     "item": "INGREDIENT2_NAME"
                 }
-              },
+              ],
               "result": {
                 "count": 1,
                 "id": "aestheticwindows:OUTPUT_NAME"
