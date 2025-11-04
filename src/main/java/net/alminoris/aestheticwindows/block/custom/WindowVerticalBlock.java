@@ -177,10 +177,8 @@ public class WindowVerticalBlock extends YAxisRotatedBlock
     }
 
     @Override
-    public void afterBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool)
+    public BlockState onBreak(World world, BlockPos pos, BlockState state, PlayerEntity player)
     {
-        super.afterBreak(world, player, pos, state, blockEntity, tool);
-
         if (!world.isClient && !getMaterialName().isEmpty())
         {
             world.setBlockState(pos, ModBlocks.VERTICAL_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
@@ -190,6 +188,8 @@ public class WindowVerticalBlock extends YAxisRotatedBlock
                     .with(EmptyWindowVerticalBlock.WATERLOGGED, state.get(WATERLOGGED))
                     .with(EmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)));
         }
+
+        return super.onBreak(world, pos, state, player);
     }
 
     private String getMaterialName()
