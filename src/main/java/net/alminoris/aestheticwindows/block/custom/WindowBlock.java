@@ -128,7 +128,7 @@ public class WindowBlock extends YAxisRotatedBlock
         {
             world.setBlockState(pos, ModBlocks.EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(EmptyWindowBlock.FACING, state.get(FACING))
-                    .with(EmptyWindowBlock.VARIANT, EmptyWindowBlock.Variant.valueOf(state.get(VARIANT).asString()))
+                    .with(EmptyWindowBlock.VARIANT, EmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(EmptyWindowBlock.OPEN, state.get(OPEN))
                     .with(EmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)));
         }

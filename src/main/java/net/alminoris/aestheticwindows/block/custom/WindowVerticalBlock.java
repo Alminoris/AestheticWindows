@@ -185,7 +185,7 @@ public class WindowVerticalBlock extends YAxisRotatedBlock
         {
             world.setBlockState(pos, ModBlocks.VERTICAL_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(EmptyWindowVerticalBlock.FACING, state.get(FACING))
-                    .with(EmptyWindowVerticalBlock.VARIANT, EmptyWindowVerticalBlock.Variant.valueOf(state.get(VARIANT).asString()))
+                    .with(EmptyWindowVerticalBlock.VARIANT, EmptyWindowVerticalBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(EmptyWindowVerticalBlock.OPEN, state.get(OPEN))
                     .with(EmptyWindowVerticalBlock.WATERLOGGED, state.get(WATERLOGGED))
                     .with(EmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)));

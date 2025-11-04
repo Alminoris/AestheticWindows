@@ -127,7 +127,7 @@ public class FourpaneWindowBlock extends YAxisRotatedBlock
         {
             world.setBlockState(pos, ModBlocks.FOURPANE_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(FourpaneEmptyWindowBlock.FACING, state.get(FACING))
-                    .with(FourpaneEmptyWindowBlock.VARIANT, FourpaneEmptyWindowBlock.Variant.valueOf(state.get(VARIANT).asString()))
+                    .with(FourpaneEmptyWindowBlock.VARIANT, FourpaneEmptyWindowBlock.Variant.valueOf(String.valueOf(state.get(VARIANT))))
                     .with(FourpaneEmptyWindowBlock.OPEN, state.get(OPEN))
                     .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)));
         }
