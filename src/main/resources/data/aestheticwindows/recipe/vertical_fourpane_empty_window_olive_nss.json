@@ -1,13 +1,13 @@
 {
   "type": "minecraft:shapeless",
-  "ingredient": {
+  "ingredient": [
     {
         "item": "minecraft:glass_pane"
     },
     {
         "item": "minecraft:vertical_fourpane_window_olive_nss"
     }
-  },
+  ],
   "result": {
     "count": 1,
     "id": "aestheticwindows:vertical_fourpane_empty_window_olive_nss"

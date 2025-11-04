@@ -1,11 +1,14 @@
 package net.alminoris.aestheticwindows.block.custom;
 
+import net.alminoris.aestheticwindows.block.ModBlocks;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -20,11 +23,9 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+import org.jetbrains.annotations.Nullable;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class WindowVerticalBlock extends YAxisRotatedBlock
 {
@@ -175,6 +176,41 @@ public class WindowVerticalBlock extends YAxisRotatedBlock
         return ActionResult.SUCCESS;
     }
 
+    @Override
+    public void afterBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool)
+    {
+        super.afterBreak(world, player, pos, state, blockEntity, tool);
+
+        if (!world.isClient && !getMaterialName().isEmpty())
+        {
+            world.setBlockState(pos, ModBlocks.VERTICAL_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
+                    .with(EmptyWindowVerticalBlock.FACING, state.get(FACING))
+                    .with(EmptyWindowVerticalBlock.VARIANT, EmptyWindowVerticalBlock.Variant.valueOf(state.get(VARIANT).asString()))
+                    .with(EmptyWindowVerticalBlock.OPEN, state.get(OPEN))
+                    .with(EmptyWindowVerticalBlock.WATERLOGGED, state.get(WATERLOGGED))
+                    .with(EmptyWindowVerticalBlock.FLIPPED, state.get(FLIPPED)));
+        }
+    }
+
+    private String getMaterialName()
+    {
+        if (getKeyByValue((Hashtable<String, Block>)ModBlocks.VERTICAL_WINDOWS, this) != null)
+            return getKeyByValue((Hashtable<String, Block>)ModBlocks.VERTICAL_WINDOWS, this);
+
+        return "";
+    }
+
+    public static String getKeyByValue(Hashtable<String, Block> table, Block value)
+    {
+        for (Map.Entry<String, Block> entry : table.entrySet())
+        {
+            if (entry.getValue().equals(value))
+            {
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
 
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx)

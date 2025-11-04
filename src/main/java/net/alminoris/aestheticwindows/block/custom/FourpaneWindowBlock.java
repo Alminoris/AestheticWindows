@@ -1,13 +1,16 @@
 package net.alminoris.aestheticwindows.block.custom;
 
+import net.alminoris.aestheticwindows.block.ModBlocks;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -22,9 +25,12 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.List;
+import java.util.Map;
 
 public class FourpaneWindowBlock extends YAxisRotatedBlock
 {
@@ -110,6 +116,41 @@ public class FourpaneWindowBlock extends YAxisRotatedBlock
         }
 
         return VoxelShapeHelper.rotateShape(boxes, direction);
+    }
+
+    @Override
+    public void afterBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool)
+    {
+        super.afterBreak(world, player, pos, state, blockEntity, tool);
+
+        if (!world.isClient && !getMaterialName().isEmpty())
+        {
+            world.setBlockState(pos, ModBlocks.FOURPANE_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
+                    .with(FourpaneEmptyWindowBlock.FACING, state.get(FACING))
+                    .with(FourpaneEmptyWindowBlock.VARIANT, FourpaneEmptyWindowBlock.Variant.valueOf(state.get(VARIANT).asString()))
+                    .with(FourpaneEmptyWindowBlock.OPEN, state.get(OPEN))
+                    .with(FourpaneEmptyWindowBlock.WATERLOGGED, state.get(WATERLOGGED)));
+        }
+    }
+
+    private String getMaterialName()
+    {
+        if (getKeyByValue((Hashtable<String, Block>)ModBlocks.FOURPANE_WINDOWS, this) != null)
+            return getKeyByValue((Hashtable<String, Block>)ModBlocks.FOURPANE_WINDOWS, this);
+
+        return "";
+    }
+
+    public static String getKeyByValue(Hashtable<String, Block> table, Block value)
+    {
+        for (Map.Entry<String, Block> entry : table.entrySet())
+        {
+            if (entry.getValue().equals(value))
+            {
+                return entry.getKey();
+            }
+        }
+        return null;
     }
 
     @Override

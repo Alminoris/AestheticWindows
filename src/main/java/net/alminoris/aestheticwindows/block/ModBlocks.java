@@ -1,10 +1,7 @@
 package net.alminoris.aestheticwindows.block;
 
 import net.alminoris.aestheticwindows.AestheticWindows;
-import net.alminoris.aestheticwindows.block.custom.FourpaneWindowBlock;
-import net.alminoris.aestheticwindows.block.custom.FourpaneWindowVerticalBlock;
-import net.alminoris.aestheticwindows.block.custom.WindowBlock;
-import net.alminoris.aestheticwindows.block.custom.WindowVerticalBlock;
+import net.alminoris.aestheticwindows.block.custom.*;
 import net.alminoris.aestheticwindows.util.helper.BlockSetsHelper;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -56,12 +53,12 @@ public class ModBlocks
     {{
         for(String name : BlockSetsHelper.getWoods())
         {
-            put(name, registerBlock("empty_window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+            put(name, registerBlock("empty_window_"+name, new EmptyWindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
         }
 
         for(String name : BlockSetsHelper.getStones())
         {
-            put(name, registerBlock("empty_window_"+name, new WindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("empty_window_"+name, new EmptyWindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
         }
     }};
 
@@ -69,12 +66,12 @@ public class ModBlocks
     {{
         for(String name : BlockSetsHelper.getWoods())
         {
-            put(name, registerBlock("vertical_empty_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+            put(name, registerBlock("vertical_empty_window_"+name, new EmptyWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
         }
 
         for(String name : BlockSetsHelper.getStones())
         {
-            put(name, registerBlock("vertical_empty_window_"+name, new WindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("vertical_empty_window_"+name, new EmptyWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
         }
     }};
 
@@ -82,12 +79,12 @@ public class ModBlocks
     {{
         for(String name : BlockSetsHelper.getWoods())
         {
-            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneEmptyWindowBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
         }
 
         for(String name : BlockSetsHelper.getStones())
         {
-            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneWindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("fourpane_empty_window_"+name, new FourpaneEmptyWindowBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
         }
     }};
 
@@ -95,12 +92,12 @@ public class ModBlocks
     {{
         for(String name : BlockSetsHelper.getWoods())
         {
-            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
+            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneEmptyWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD))));
         }
 
         for(String name : BlockSetsHelper.getStones())
         {
-            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
+            put(name, registerBlock("vertical_fourpane_empty_window_"+name, new FourpaneEmptyWindowVerticalBlock(AbstractBlock.Settings.copy(Blocks.STONE))));
         }
     }};
 

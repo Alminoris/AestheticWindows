@@ -1,13 +1,13 @@
 {
   "type": "minecraft:shapeless",
-  "ingredient": {
+  "ingredient": [
     {
         "item": "minecraft:glass_pane"
     },
     {
         "item": "minecraft:fourpane_window_jungle"
     }
-  },
+  ],
   "result": {
     "count": 1,
     "id": "aestheticwindows:fourpane_empty_window_jungle"
