@@ -35,17 +35,17 @@ public class WindowVerticalBlock extends BaseWindowVerticalBlock
     }
 
     @Override
-    public void afterBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool)
+    public void onBroken(WorldAccess world, BlockPos pos, BlockState state)
     {
-        super.afterBreak(world, player, pos, state, blockEntity, tool);
+        super.onBroken(world, pos, state);
 
         if (!world.isClient() && !getMaterialName().isEmpty())
         {
             world.setBlockState(pos, ModBlocks.VERTICAL_EMPTY_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(FACING, state.get(FACING))
-                    .with(VARIANT, Variant.valueOf(String.valueOf(state.get(VARIANT))))
+                    .with(VARIANT, state.get(VARIANT))
                     .with(OPEN, state.get(OPEN))
-                    .with(WATERLOGGED, state.get(WATERLOGGED)));
+                    .with(WATERLOGGED, state.get(WATERLOGGED)), 3);
         }
     }
 
