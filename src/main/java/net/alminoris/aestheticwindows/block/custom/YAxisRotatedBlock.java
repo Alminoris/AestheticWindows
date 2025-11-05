@@ -3,7 +3,6 @@ package net.alminoris.aestheticwindows.block.custom;
 import net.alminoris.aestheticwindows.util.helper.BlockShape;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.item.ItemPlacementContext;
@@ -42,12 +41,6 @@ public class YAxisRotatedBlock extends Block
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
         builder.add(FACING);
-    }
-
-    @Override
-    protected BlockRenderType getRenderType(BlockState state)
-    {
-        return BlockRenderType.MODEL;
     }
 
     @Override
