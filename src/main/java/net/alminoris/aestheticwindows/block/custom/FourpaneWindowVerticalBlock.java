@@ -58,16 +58,4 @@ public class FourpaneWindowVerticalBlock extends BaseWindowVerticalBlock
 
         return "";
     }
-
-    public static String getKeyByValue(Hashtable<String, Block> table, Block value)
-    {
-        for (Map.Entry<String, Block> entry : table.entrySet())
-        {
-            if (entry.getValue().equals(value))
-            {
-                return entry.getKey();
-            }
-        }
-        return null;
-    }
 }

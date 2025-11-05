@@ -140,6 +140,18 @@ public class BaseWindowBlock extends YAxisRotatedBlock
         return super.onUse(state, world, pos, player, hit);
     }
 
+    protected static String getKeyByValue(Hashtable<String, Block> table, Block value)
+    {
+        for (Map.Entry<String, Block> entry : table.entrySet())
+        {
+            if (entry.getValue().equals(value))
+            {
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
+
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx)
     {

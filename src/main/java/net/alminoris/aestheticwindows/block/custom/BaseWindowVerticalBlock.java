@@ -84,6 +84,18 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
                 .with(FLIPPED, false));
     }
 
+    protected static String getKeyByValue(Hashtable<String, Block> table, Block value)
+    {
+        for (Map.Entry<String, Block> entry : table.entrySet())
+        {
+            if (entry.getValue().equals(value))
+            {
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
+
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
