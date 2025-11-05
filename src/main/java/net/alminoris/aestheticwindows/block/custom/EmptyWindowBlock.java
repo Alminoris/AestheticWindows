@@ -7,7 +7,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
@@ -47,13 +49,20 @@ public class EmptyWindowBlock extends BaseWindowBlock
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit)
     {
         ItemStack stack = player.getMainHandStack();
-        if (!world.isClient() && !getMaterialName().isEmpty() && stack.getItem() == Blocks.GLASS_PANE.asItem())
+        if (!world.isClient() && !getMaterialName().isEmpty() && isGlassBlockInStack(stack))
         {
             stack.decrement(1);
+
+            String colorName;
+            if (!stack.isOf(Blocks.GLASS_PANE.asItem()))
+                colorName = Registries.ITEM.getId(stack.getItem()).getPath().replace("_stained_glass_pane", "");
+            else
+                colorName = "none";
 
             world.setBlockState(pos, ModBlocks.WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(FACING, state.get(FACING))
                     .with(VARIANT, state.get(VARIANT))
+                    .with(GLASS_COLOR, GlassColor.fromString(colorName))
                     .with(OPEN, state.get(OPEN))
                     .with(WATERLOGGED, state.get(WATERLOGGED)));
 

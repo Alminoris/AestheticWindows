@@ -4,11 +4,13 @@ import net.alminoris.aestheticwindows.sound.ModSounds;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
@@ -75,15 +77,69 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
 
     public static final EnumProperty<Variant> VARIANT = EnumProperty.of("variant", Variant.class);
 
+    public enum GlassColor implements StringIdentifiable
+    {
+        NONE("none"),
+        BLACK("black"),
+        BROWN("brown"),
+        GRAY("gray"),
+        LIGHT_GRAY("light_gray"),
+        WHITE("white"),
+        RED("red"),
+        ORANGE("orange"),
+        YELLOW("yellow"),
+        PURPLE("purple"),
+        MAGENTA("magenta"),
+        PINK("pink"),
+        BLUE("blue"),
+        CYAN("cyan"),
+        LIGHT_BLUE("light_blue"),
+        GREEN("green"),
+        LIME("lime");
+
+        private final String name;
+
+        GlassColor(String name) { this.name = name; }
+
+        public static BaseWindowVerticalBlock.GlassColor fromString(String name)
+        {
+            for (BaseWindowVerticalBlock.GlassColor inside : BaseWindowVerticalBlock.GlassColor.values())
+            {
+                if (inside.name.equalsIgnoreCase(name))
+                    return inside;
+            }
+            throw new IllegalArgumentException("No enum constant for name: " + name);
+        }
+
+        @Override
+        public String asString() { return this.name; }
+    }
+
+    public static final EnumProperty<BaseWindowVerticalBlock.GlassColor> GLASS_COLOR = EnumProperty.of("glass_color", BaseWindowVerticalBlock.GlassColor.class);
+
     public BaseWindowVerticalBlock(Settings settings)
     {
         super(settings.nonOpaque());
         this.setDefaultState(this.stateManager.getDefaultState()
                 .with(FACING, Direction.NORTH)
                 .with(VARIANT, Variant.NORMAL)
+                .with(GLASS_COLOR, BaseWindowVerticalBlock.GlassColor.NONE)
                 .with(OPEN, false)
                 .with(WATERLOGGED, false)
                 .with(FLIPPED, false));
+    }
+
+    protected boolean isGlassBlockInStack(ItemStack stack)
+    {
+        return stack.isOf(Blocks.GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.BLACK_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.BROWN_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.GRAY_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.WHITE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.RED_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.ORANGE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.YELLOW_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.BLUE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.CYAN_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.PURPLE_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.MAGENTA_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.PINK_STAINED_GLASS_PANE.asItem()) ||
+                stack.isOf(Blocks.GREEN_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.LIME_STAINED_GLASS_PANE.asItem());
     }
 
     protected static String getKeyByValue(Hashtable<String, Block> table, Block value)
@@ -101,7 +157,7 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
-        builder.add(FACING, VARIANT, OPEN, WATERLOGGED, FLIPPED);
+        builder.add(FACING, VARIANT, GLASS_COLOR, OPEN, WATERLOGGED, FLIPPED);
     }
 
     @Override
