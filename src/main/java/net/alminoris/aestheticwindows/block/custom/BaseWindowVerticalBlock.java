@@ -1,5 +1,6 @@
 package net.alminoris.aestheticwindows.block.custom;
 
+import net.alminoris.aestheticwindows.sound.ModSounds;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -8,6 +9,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -139,6 +141,12 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
         return VoxelShapeHelper.rotateShape(boxes, direction);
     }
 
+    private void playSound(World world, PlayerEntity player, SoundEvent sound, float volume, float pitch)
+    {
+        world.playSound(null, player.getX(), player.getY(), player.getZ(),
+                sound, player.getSoundCategory(), volume, pitch);
+    }
+
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit)
     {
@@ -148,6 +156,11 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
         }
 
         if (world.isClient) return ActionResult.SUCCESS;
+
+        if (!state.get(OPEN))
+            playSound(world, player, ModSounds.OPEN_WINDOW, 1.0f, 1.0f);
+        else
+            playSound(world, player, ModSounds.CLOSE_WINDOW, 1.0f, 1.0f);
 
         boolean newOpen = !state.get(OPEN);
         Direction facing = state.get(FACING);

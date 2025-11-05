@@ -1,6 +1,7 @@
 package net.alminoris.aestheticwindows.block.custom;
 
 import net.alminoris.aestheticwindows.block.ModBlocks;
+import net.alminoris.aestheticwindows.sound.ModSounds;
 import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -9,6 +10,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -128,6 +130,11 @@ public class BaseWindowBlock extends YAxisRotatedBlock
 
         if (!world.isClient)
         {
+            if (!currentOpen)
+                playSound(world, player, ModSounds.OPEN_WINDOW, 1.0f, 1.0f);
+            else
+                playSound(world, player, ModSounds.CLOSE_WINDOW, 1.0f, 1.0f);
+
             currentOpen = !currentOpen;
             Direction currentFacing = state.get(FACING);
             world.setBlockState(pos, state
@@ -138,6 +145,12 @@ public class BaseWindowBlock extends YAxisRotatedBlock
             return ActionResult.SUCCESS;
         }
         return super.onUse(state, world, pos, player, hit);
+    }
+
+    private void playSound(World world, PlayerEntity player, SoundEvent sound, float volume, float pitch)
+    {
+        world.playSound(null, player.getX(), player.getY(), player.getZ(),
+                sound, player.getSoundCategory(), volume, pitch);
     }
 
     protected static String getKeyByValue(Hashtable<String, Block> table, Block value)
