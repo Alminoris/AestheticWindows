@@ -25,9 +25,9 @@ public class WindowBlock extends BaseWindowBlock
     }
 
     @Override
-    protected void spawnBreakParticles(World world, PlayerEntity player, BlockPos pos, BlockState state)
+    public void onBroken(WorldAccess world, BlockPos pos, BlockState state)
     {
-        super.spawnBreakParticles(world, player, pos, state);
+        super.onBroken(world, pos, state);
 
         if (!world.isClient() && !getMaterialName().isEmpty())
         {
@@ -35,7 +35,7 @@ public class WindowBlock extends BaseWindowBlock
                     .with(FACING, state.get(FACING))
                     .with(VARIANT, state.get(VARIANT))
                     .with(OPEN, state.get(OPEN))
-                    .with(WATERLOGGED, state.get(WATERLOGGED)));
+                    .with(WATERLOGGED, state.get(WATERLOGGED)), 3);
         }
     }
 

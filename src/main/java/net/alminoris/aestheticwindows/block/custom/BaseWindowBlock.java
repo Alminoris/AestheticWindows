@@ -95,7 +95,7 @@ public class BaseWindowBlock extends YAxisRotatedBlock
         return getRotatedShape(state);
     }
 
-    private VoxelShape getRotatedShape(BlockState state)
+    protected VoxelShape getRotatedShape(BlockState state)
     {
         Direction direction = state.get(FACING);
 

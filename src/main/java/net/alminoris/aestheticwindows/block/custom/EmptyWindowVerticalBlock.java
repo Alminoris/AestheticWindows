@@ -1,6 +1,7 @@
 package net.alminoris.aestheticwindows.block.custom;
 
 import net.alminoris.aestheticwindows.block.ModBlocks;
+import net.alminoris.aestheticwindows.util.helper.VoxelShapeHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -9,15 +10,45 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.World;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
+import java.util.List;
 
 public class EmptyWindowVerticalBlock extends BaseWindowVerticalBlock
 {
     public EmptyWindowVerticalBlock(Settings settings)
     {
         super(settings.nonOpaque());
+    }
+
+    @Override
+    protected VoxelShape getRotatedShape(BlockState state)
+    {
+        Direction direction = state.get(FACING);
+
+        List<Box> boxes = new ArrayList<>();
+        switch(state.get(VARIANT))
+        {
+            case NORMAL:
+                boxes.add(UP.getBoundingBox());
+                boxes.add(DOWN.getBoundingBox());
+                break;
+            case UP:
+                boxes.add(UP.getBoundingBox());
+                break;
+            case DOWN:
+                boxes.add(DOWN.getBoundingBox());
+                break;
+        }
+        boxes.add(LEFT.getBoundingBox());
+        boxes.add(RIGHT.getBoundingBox());
+
+        return VoxelShapeHelper.rotateShape(boxes, direction);
     }
 
     @Override
