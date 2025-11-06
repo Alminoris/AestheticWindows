@@ -283,7 +283,7 @@ public class ModModelProvider extends FabricModelProvider
         try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
 
         ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()+"_none"));
     }
 
     public final void registerStoneWindow(BlockStateModelGenerator blockStateModelGenerator, String normal,
@@ -384,7 +384,7 @@ public class ModModelProvider extends FabricModelProvider
 
         ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
 
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()+"_none"));
     }
 
     public final void registerVerticalWindow(BlockStateModelGenerator blockStateModelGenerator,
@@ -573,7 +573,7 @@ public class ModModelProvider extends FabricModelProvider
         try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
 
         ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()+"_none"));
     }
 
     public final void registerStoneVerticalWindow(BlockStateModelGenerator blockStateModelGenerator,
@@ -760,7 +760,7 @@ public class ModModelProvider extends FabricModelProvider
         try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
 
         ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
-        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
+        blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()+"_none"));
     }
 
     @Override
