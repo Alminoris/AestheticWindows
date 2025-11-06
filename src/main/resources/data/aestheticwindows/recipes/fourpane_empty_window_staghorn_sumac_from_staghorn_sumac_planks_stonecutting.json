@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "silverwoodtrees:staghorn_sumac_planks"
+  },
+  "result": {
+    "count": 1,
+    "item": "aestheticwindows:fourpane_empty_window_staghorn_sumac"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "natures_spirit:ghaf_planks"
+  },
+  "result": {
+    "count": 1,
+    "item": "aestheticwindows:vertical_fourpane_empty_window_ghaf_nss"
+  }
+}

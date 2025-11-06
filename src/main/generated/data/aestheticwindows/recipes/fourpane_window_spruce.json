@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aestheticwindows:fourpane_empty_window_spruce"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "item": "aestheticwindows:fourpane_window_spruce"
+  }
+}

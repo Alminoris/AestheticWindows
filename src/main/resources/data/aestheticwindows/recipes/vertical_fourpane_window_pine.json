@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building_blocks",
+  "ingredients": [
+    {
+        "item": "minecraft:glass_pane"
+    },
+    {
+        "item": "aestheticwindows:vertical_fourpane_empty_window_pine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "aestheticwindows:vertical_fourpane_window_pine"
+  }
+}

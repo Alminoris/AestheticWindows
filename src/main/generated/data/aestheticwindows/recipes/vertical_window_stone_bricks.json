@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "aestheticwindows:vertical_empty_window_stone_bricks"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "item": "aestheticwindows:vertical_window_stone_bricks"
+  }
+}

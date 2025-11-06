@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glass_pane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_pane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticwindows:vertical_window_sandstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vertical_empty_window_sandstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticwindows:vertical_empty_window_sandstone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vertical_empty_window_sandstone",
+      "has_glass_pane",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticwindows:vertical_window_sandstone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

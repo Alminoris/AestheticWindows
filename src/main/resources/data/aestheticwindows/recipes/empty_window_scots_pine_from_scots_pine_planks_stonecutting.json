@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "missingtrees:scots_pine_planks"
+  },
+  "result": {
+    "count": 1,
+    "item": "aestheticwindows:empty_window_scots_pine"
+  }
+}
