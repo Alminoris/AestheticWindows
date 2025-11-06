@@ -19,15 +19,7 @@ public class ModJsonHelper
         if (!directory.exists())
             directory.mkdirs();
 
-        String colorName;
-        if (textureGlass.split("/")[1].equals("glass"))
-            colorName = "none";
-        else
-            colorName = textureGlass.split("/")[1].replace("_stained_glass", "");
-
-        colorName = "_" + colorName;
-
-        String fileName = name + colorName + (isOpen ? "_open" : "") + (variant.equals("normal") ? "" : ("_" + variant)) + (isFlipped ? "_flipped" : "")  + ".json";
+        String fileName = name + (isOpen ? "_open" : "") + (variant.equals("normal") ? "" : ("_" + variant)) + (isFlipped ? "_flipped" : "")  + ".json";
         File modelFile = new File(directory, fileName);
 
         jsonContent = jsonContent.replace("BASE_NAME", textureBase).replace("GLASS_NAME", textureGlass).replace("HANDLE_NAME", textureHandle);
@@ -53,15 +45,7 @@ public class ModJsonHelper
         if (!directory.exists())
             directory.mkdirs();
 
-        String colorName;
-        if (textureGlass.split("/")[1].equals("glass"))
-            colorName = "none";
-        else
-            colorName = textureGlass.split("/")[1].replace("_stained_glass", "");
-
-        colorName = "_" + colorName;
-
-        String fileName = name + colorName + (isOpen ? "_open" : "") + (variant.equals("normal") ? "" : ("_" + variant)) + ".json";
+        String fileName = name + (isOpen ? "_open" : "") + (variant.equals("normal") ? "" : ("_" + variant)) + ".json";
         File modelFile = new File(directory, fileName);
 
         jsonContent = jsonContent.replace("BASE_NAME", textureBase).replace("GLASS_NAME", textureGlass).replace("HANDLE_NAME", textureHandle);

@@ -243,12 +243,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-              				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+              				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -417,12 +417,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-              				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+              				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
               			}
               		}
               	]
@@ -548,12 +548,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-              				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+              				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -692,12 +692,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-              				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+              				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -836,12 +836,12 @@ public class ModJsonTemplates
               			"to": [12, 14, 20.5],
               			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
               			"faces": {
-              				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+              				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -991,12 +991,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-              				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+              				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
               			}
               		}
               	]
@@ -1122,12 +1122,12 @@ public class ModJsonTemplates
               			"to": [5, 14, 20.5],
               			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
               			"faces": {
-              				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-              				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-              				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-              				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+              				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -1278,12 +1278,12 @@ public class ModJsonTemplates
               			"to": [12, 14, 20.5],
               			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
               			"faces": {
-              				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+              				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -1434,12 +1434,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-              				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+              				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -1557,12 +1557,12 @@ public class ModJsonTemplates
               			"to": [14, 16, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [0, 1, 16, 15], "texture": "#1"},
-              				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"south": {"uv": [0, 1, 16, 15], "texture": "#1"},
-              				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-              				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+              				"north": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -1706,12 +1706,12 @@ public class ModJsonTemplates
               			"to": [14, 14, 8.5],
               			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
               			"faces": {
-              				"north": {"uv": [0, 0, 16, 15], "texture": "#1"},
-              				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"south": {"uv": [0, 0, 16, 15], "texture": "#1"},
-              				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"up": {"uv": [2, 6, 14, 7], "texture": "#1"},
-              				"down": {"uv": [2, 6, 14, 7], "texture": "#1"}
+              				"north": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -1855,12 +1855,12 @@ public class ModJsonTemplates
              			"to": [14, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -2030,12 +2030,12 @@ public class ModJsonTemplates
               			"to": [12, 14, 20.5],
               			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
               			"faces": {
-              				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-              				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+              				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+              				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+              				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+              				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
               			}
               		},
               		{
@@ -2134,12 +2134,12 @@ public class ModJsonTemplates
              			"to": [12, 16, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -2262,12 +2262,12 @@ public class ModJsonTemplates
              			"to": [12, 14, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -2391,12 +2391,12 @@ public class ModJsonTemplates
              			"to": [12, 16, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -2546,12 +2546,12 @@ public class ModJsonTemplates
             			"to": [14, 14, 8.5],
             			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             			"faces": {
-            				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-            				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-            				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-            				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+            				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -2721,12 +2721,12 @@ public class ModJsonTemplates
             			"to": [5, 14, 20.5],
             			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
             			"faces": {
-            				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-            				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-            				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-            				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+            				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -2825,12 +2825,12 @@ public class ModJsonTemplates
             			"to": [14, 16, 8.5],
             			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             			"faces": {
-            				"north": {"uv": [16, 1, 0, 15], "texture": "#1"},
-            				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"south": {"uv": [16, 1, 0, 15], "texture": "#1"},
-            				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-            				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+            				"north": {"uv": [16, 1, 0, 15], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [16, 1, 0, 15], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -2948,12 +2948,12 @@ public class ModJsonTemplates
             			"to": [5, 16, 20.5],
             			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
             			"faces": {
-            				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"east": {"uv": [16, 1, 0, 15], "texture": "#1"},
-            				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"west": {"uv": [16, 1, 0, 15], "texture": "#1"},
-            				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-            				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+            				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [16, 1, 0, 15], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [16, 1, 0, 15], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -3076,12 +3076,12 @@ public class ModJsonTemplates
             			"to": [14, 14, 8.5],
             			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             			"faces": {
-            				"north": {"uv": [16, 0, 0, 15], "texture": "#1"},
-            				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"south": {"uv": [16, 0, 0, 15], "texture": "#1"},
-            				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"up": {"uv": [14, 6, 2, 7], "texture": "#1"},
-            				"down": {"uv": [14, 6, 2, 7], "texture": "#1"}
+            				"north": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -3225,12 +3225,12 @@ public class ModJsonTemplates
             			"to": [5, 14, 20.5],
             			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
             			"faces": {
-            				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"east": {"uv": [16, 0, 0, 15], "texture": "#1"},
-            				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"west": {"uv": [16, 0, 0, 15], "texture": "#1"},
-            				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1"},
-            				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1"}
+            				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -3354,12 +3354,12 @@ public class ModJsonTemplates
             			"to": [14, 16, 8.5],
             			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
             			"faces": {
-            				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
-            				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
-            				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-            				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-            				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+            				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+            				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+            				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+            				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+            				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
             			}
             		},
             		{
@@ -3503,12 +3503,12 @@ public class ModJsonTemplates
              			"to": [5, 16, 20.5],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3684,12 +3684,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3697,12 +3697,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3710,12 +3710,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3723,12 +3723,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3924,12 +3924,12 @@ public class ModJsonTemplates
              			"to": [12, 14, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3937,12 +3937,12 @@ public class ModJsonTemplates
              			"to": [12, 7.5, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 1.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3950,12 +3950,12 @@ public class ModJsonTemplates
              			"to": [9.5, 14, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -3963,12 +3963,12 @@ public class ModJsonTemplates
              			"to": [9.5, 7.5, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 1.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4145,12 +4145,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4158,12 +4158,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4171,12 +4171,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4184,12 +4184,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4354,12 +4354,12 @@ public class ModJsonTemplates
              			"to": [5, 14, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4367,12 +4367,12 @@ public class ModJsonTemplates
              			"to": [5, 7.5, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 1.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4380,12 +4380,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4393,12 +4393,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 1.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4575,12 +4575,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4588,12 +4588,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4601,12 +4601,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4614,12 +4614,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4784,12 +4784,12 @@ public class ModJsonTemplates
              			"to": [12, 14, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4797,12 +4797,12 @@ public class ModJsonTemplates
              			"to": [12, 7.5, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 1.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4810,12 +4810,12 @@ public class ModJsonTemplates
              			"to": [14.5, 14, 14.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [14.5, 8, 8.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -4823,12 +4823,12 @@ public class ModJsonTemplates
              			"to": [14.5, 7.5, 14.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [14.5, 1.5, 8.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5004,12 +5004,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5017,12 +5017,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5030,12 +5030,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5043,12 +5043,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		}
              	]
@@ -5199,12 +5199,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5212,12 +5212,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5225,12 +5225,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5238,12 +5238,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		}
              	]
@@ -5395,12 +5395,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5408,12 +5408,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5421,12 +5421,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5434,12 +5434,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [0, 0, 12, 1], "texture": "#1"},
-             				"down": {"uv": [0, 0, 12, 1], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [0, 0, 12, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5635,12 +5635,12 @@ public class ModJsonTemplates
              			"to": [12, 14, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5648,12 +5648,12 @@ public class ModJsonTemplates
              			"to": [12, 7.5, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 1.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5661,12 +5661,12 @@ public class ModJsonTemplates
              			"to": [9.5, 14, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5674,12 +5674,12 @@ public class ModJsonTemplates
              			"to": [9.5, 7.5, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 1.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 1, 0, 0], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 1, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5830,12 +5830,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 6, 14, 7], "texture": "#1"},
-             				"down": {"uv": [2, 6, 14, 7], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5843,12 +5843,12 @@ public class ModJsonTemplates
              			"to": [7.5, 6.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 6, 14, 7], "texture": "#1"},
-             				"down": {"uv": [2, 6, 14, 7], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5856,12 +5856,12 @@ public class ModJsonTemplates
              			"to": [14, 6.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 6, 14, 7], "texture": "#1"},
-             				"down": {"uv": [2, 6, 14, 7], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -5869,12 +5869,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 6, 14, 7], "texture": "#1"},
-             				"down": {"uv": [2, 6, 14, 7], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 6, 14, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6044,12 +6044,12 @@ public class ModJsonTemplates
              			"to": [12, 14, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6057,12 +6057,12 @@ public class ModJsonTemplates
              			"to": [12, 6.5, 20.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6070,12 +6070,12 @@ public class ModJsonTemplates
              			"to": [14.5, 14, 14.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [14.5, 8, 8.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6083,12 +6083,12 @@ public class ModJsonTemplates
              			"to": [14.5, 6.5, 14.5],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [14.5, 0.5, 8.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 6], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 6], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6238,12 +6238,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6251,12 +6251,12 @@ public class ModJsonTemplates
              			"to": [14, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6264,12 +6264,12 @@ public class ModJsonTemplates
              			"to": [14, 8.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6277,12 +6277,12 @@ public class ModJsonTemplates
              			"to": [7.5, 8.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6452,12 +6452,12 @@ public class ModJsonTemplates
              			"to": [12, 16, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6465,12 +6465,12 @@ public class ModJsonTemplates
              			"to": [12, 8.5, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6478,12 +6478,12 @@ public class ModJsonTemplates
              			"to": [9.5, 16, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6491,12 +6491,12 @@ public class ModJsonTemplates
              			"to": [9.5, 8.5, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 0, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6607,12 +6607,12 @@ public class ModJsonTemplates
              			"to": [14, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6620,12 +6620,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6633,12 +6633,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6646,12 +6646,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 8]},
              			"faces": {
-             				"north": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"south": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-             				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+             				"north": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6795,12 +6795,12 @@ public class ModJsonTemplates
              			"to": [12, 16, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6808,12 +6808,12 @@ public class ModJsonTemplates
              			"to": [9.5, 16, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 1, 16, 16], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 1, 16, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6821,12 +6821,12 @@ public class ModJsonTemplates
              			"to": [9.5, 7.5, 20],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [9.5, -0.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -6834,12 +6834,12 @@ public class ModJsonTemplates
              			"to": [12, 7.5, 14],
              			"rotation": {"angle": -22.5, "axis": "y", "origin": [12, -0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"east": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"south": {"uv": [0, 0, 1, 12], "texture": "#1"},
-             				"west": {"uv": [0, 0, 16, 15], "texture": "#1"},
-             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [0, 0, 16, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 8, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 8, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7027,12 +7027,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7040,12 +7040,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7053,12 +7053,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7066,12 +7066,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7267,12 +7267,12 @@ public class ModJsonTemplates
              			"to": [5, 14, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7280,12 +7280,12 @@ public class ModJsonTemplates
              			"to": [5, 7.5, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 1.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7293,12 +7293,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7306,12 +7306,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 1.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7462,12 +7462,12 @@ public class ModJsonTemplates
              			"to": [14, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7475,12 +7475,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7488,12 +7488,12 @@ public class ModJsonTemplates
              			"to": [7.5, 6.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7501,12 +7501,12 @@ public class ModJsonTemplates
              			"to": [14, 6.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7676,12 +7676,12 @@ public class ModJsonTemplates
              			"to": [5, 14, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7689,12 +7689,12 @@ public class ModJsonTemplates
              			"to": [5, 6.5, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7702,12 +7702,12 @@ public class ModJsonTemplates
              			"to": [7.5, 14, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7715,12 +7715,12 @@ public class ModJsonTemplates
              			"to": [7.5, 6.5, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 0.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 6, 2, 7], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 6, 2, 7], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7870,12 +7870,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7883,12 +7883,12 @@ public class ModJsonTemplates
              			"to": [14, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7896,12 +7896,12 @@ public class ModJsonTemplates
              			"to": [14, 8.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -7909,12 +7909,12 @@ public class ModJsonTemplates
              			"to": [7.5, 8.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8084,12 +8084,12 @@ public class ModJsonTemplates
              			"to": [5, 16, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8097,12 +8097,12 @@ public class ModJsonTemplates
              			"to": [5, 8.5, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8110,12 +8110,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8123,12 +8123,12 @@ public class ModJsonTemplates
              			"to": [7.5, 8.5, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 0.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8239,12 +8239,12 @@ public class ModJsonTemplates
              			"to": [14, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8252,12 +8252,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, 8, 8]},
              			"faces": {
-             				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8265,12 +8265,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [1.5, -0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8278,12 +8278,12 @@ public class ModJsonTemplates
              			"to": [14, 7.5, 8.5],
              			"rotation": {"angle": 0, "axis": "y", "origin": [8, -0.5, 8]},
              			"faces": {
-             				"north": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"south": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+             				"north": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8427,12 +8427,12 @@ public class ModJsonTemplates
              			"to": [5, 16, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8440,12 +8440,12 @@ public class ModJsonTemplates
              			"to": [5, 7.5, 14],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, -0.5, 14.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8453,12 +8453,12 @@ public class ModJsonTemplates
              			"to": [7.5, 16, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 1, 0, 16], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
@@ -8466,12 +8466,12 @@ public class ModJsonTemplates
              			"to": [7.5, 7.5, 20],
              			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, -0.5, 20.5]},
              			"faces": {
-             				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"east": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
-             				"west": {"uv": [16, 0, 0, 15], "texture": "#1"},
-             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1"},
-             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1"}
+             				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"east": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+             				"west": {"uv": [16, 0, 0, 15], "texture": "#1", "tintindex": 0},
+             				"up": {"uv": [14, 7, 2, 8], "rotation": 270, "texture": "#1", "tintindex": 0},
+             				"down": {"uv": [14, 7, 2, 8], "rotation": 90, "texture": "#1", "tintindex": 0}
              			}
              		},
              		{
