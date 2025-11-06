@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aestheticwindows:block/stripped_wild_cherry_log",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"2": "aestheticwindows:block/wild_cherry_log",
 		"particle": "aestheticwindows:block/stripped_wild_cherry_log"
 	},

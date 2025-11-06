@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aestheticwindows:block/loessic_marl_block",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"2": "aestheticwindows:block/loessic_marl_block",
 		"particle": "aestheticwindows:block/loessic_marl_block"
 	},

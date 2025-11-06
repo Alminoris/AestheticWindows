@@ -56,7 +56,7 @@ public class EmptyWindowVerticalBlock extends BaseWindowVerticalBlock
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit)
     {
         ItemStack stack = player.getMainHandStack();
-        if (!world.isClient() && !getMaterialName().isEmpty())
+        if (!world.isClient() && !getMaterialName().isEmpty() && stack.isOf(Blocks.GLASS_PANE.asItem()))
         {
             stack.decrement(1);
 

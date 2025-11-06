@@ -3,6 +3,7 @@ package net.alminoris.aestheticwindows.block.custom;
 import net.alminoris.aestheticwindows.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
@@ -23,7 +24,7 @@ public class FourpaneEmptyWindowVerticalBlock extends BaseWindowVerticalBlock
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit)
     {
         ItemStack stack = player.getMainHandStack();
-        if (!world.isClient() && !getMaterialName().isEmpty())
+        if (!world.isClient() && !getMaterialName().isEmpty() && stack.isOf(Blocks.GLASS_PANE.asItem()))
         {
             stack.decrement(1);
 

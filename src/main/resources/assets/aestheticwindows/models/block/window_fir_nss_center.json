@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aestheticwindows:block/stripped_fir_nss_log",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"particle": "aestheticwindows:block/stripped_fir_nss_log"
 	},
 	"elements": [
