@@ -192,47 +192,52 @@ public class ModModelProvider extends FabricModelProvider
 
         ModJsonHelper.registerWindowBlockModel(normal, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", false);
         ModJsonHelper.registerWindowBlockModel(center, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", false);
         ModJsonHelper.registerWindowBlockModel(left, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "left", false);
         ModJsonHelper.registerWindowBlockModel(right, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "right", false);
 
         ModJsonHelper.registerWindowBlockModel(normalOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", true);
         ModJsonHelper.registerWindowBlockModel(centerOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", true);
         ModJsonHelper.registerWindowBlockModel(leftOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "left", true);
         ModJsonHelper.registerWindowBlockModel(rightOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "right", true);
 
-        ModJsonHelper.createBlockstate(ModJsonTemplates.SIMPLE_WINDOW_BLOCKSTATE_TEMPLATE, Registries.BLOCK.getId(table).getPath());
+        String filePath = System.getProperty("user.dir").replace("build\\datagen",
+                "src\\main\\resources") + "/assets/"+ AestheticWindows.MOD_ID+"/custom_blockstates/simple_window.json";
+        String s = "";
+        try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
+
+        ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
         blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
     }
 
@@ -242,48 +247,53 @@ public class ModModelProvider extends FabricModelProvider
     {
         ModJsonHelper.registerWindowBlockModel(normal, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", false);
         ModJsonHelper.registerWindowBlockModel(center, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", false);
         ModJsonHelper.registerWindowBlockModel(left, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "left", false);
         ModJsonHelper.registerWindowBlockModel(right, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "right", false);
 
         ModJsonHelper.registerWindowBlockModel(normalOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", true);
         ModJsonHelper.registerWindowBlockModel(centerOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", true);
         ModJsonHelper.registerWindowBlockModel(leftOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "left", true);
         ModJsonHelper.registerWindowBlockModel(rightOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "right", true);
 
 
-        ModJsonHelper.createBlockstate(ModJsonTemplates.SIMPLE_WINDOW_BLOCKSTATE_TEMPLATE, Registries.BLOCK.getId(table).getPath());
+        String filePath = System.getProperty("user.dir").replace("build\\datagen",
+                "src\\main\\resources") + "/assets/"+ AestheticWindows.MOD_ID+"/custom_blockstates/simple_window.json";
+        String s = "";
+        try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
+
+        ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
 
         blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
     }
@@ -299,89 +309,94 @@ public class ModModelProvider extends FabricModelProvider
 
         ModJsonHelper.registerWindowBlockModel(normal, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", false, false);
         ModJsonHelper.registerWindowBlockModel(center, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", false, false);
         ModJsonHelper.registerWindowBlockModel(up, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "up", false, false);
         ModJsonHelper.registerWindowBlockModel(down, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "down", false, false);
 
         ModJsonHelper.registerWindowBlockModel(normalOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", true, false);
         ModJsonHelper.registerWindowBlockModel(centerOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", true, false);
         ModJsonHelper.registerWindowBlockModel(upOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "up", true, false);
         ModJsonHelper.registerWindowBlockModel(downOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "down", true, false);
 
         ModJsonHelper.registerWindowBlockModel(normalFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", false, true);
         ModJsonHelper.registerWindowBlockModel(centerFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", false, true);
         ModJsonHelper.registerWindowBlockModel(upFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "up", false, true);
         ModJsonHelper.registerWindowBlockModel(downFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "down", false, true);
 
         ModJsonHelper.registerWindowBlockModel(normalOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "normal", true, true);
         ModJsonHelper.registerWindowBlockModel(centerOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "center", true, true);
         ModJsonHelper.registerWindowBlockModel(upOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "up", true, true);
         ModJsonHelper.registerWindowBlockModel(downOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/stripped_"+name+"_"+logName,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name+"_"+logName,
                 "down", true, true);
 
-        ModJsonHelper.createBlockstate(ModJsonTemplates.VERTICAL_WINDOW_BLOCKSTATE_TEMPLATE, Registries.BLOCK.getId(table).getPath());
+        String filePath = System.getProperty("user.dir").replace("build\\datagen",
+                "src\\main\\resources") + "/assets/"+ AestheticWindows.MOD_ID+"/custom_blockstates/vertical_window.json";
+        String s = "";
+        try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
+
+        ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
         blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
     }
 
@@ -394,89 +409,94 @@ public class ModModelProvider extends FabricModelProvider
     {
         ModJsonHelper.registerWindowBlockModel(normal, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", false, false);
         ModJsonHelper.registerWindowBlockModel(center, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", false, false);
         ModJsonHelper.registerWindowBlockModel(up, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "up", false, false);
         ModJsonHelper.registerWindowBlockModel(down, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "down", false, false);
 
         ModJsonHelper.registerWindowBlockModel(normalOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", true, false);
         ModJsonHelper.registerWindowBlockModel(centerOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", true, false);
         ModJsonHelper.registerWindowBlockModel(upOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "up", true, false);
         ModJsonHelper.registerWindowBlockModel(downOpen, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "down", true, false);
 
         ModJsonHelper.registerWindowBlockModel(normalFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", false, true);
         ModJsonHelper.registerWindowBlockModel(centerFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", false, true);
         ModJsonHelper.registerWindowBlockModel(upFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "up", false, true);
         ModJsonHelper.registerWindowBlockModel(downFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "down", false, true);
 
         ModJsonHelper.registerWindowBlockModel(normalOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "normal", true, true);
         ModJsonHelper.registerWindowBlockModel(centerOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "center", true, true);
         ModJsonHelper.registerWindowBlockModel(upOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "up", true, true);
         ModJsonHelper.registerWindowBlockModel(downOpenFlipped, Registries.BLOCK.getId(table).getPath(),
                 modId+":block/"+name,
-                modId+":block/glass",
+                "aestheticwindows:block/glass",
                 modId+":block/"+name,
                 "down", true, true);
 
-        ModJsonHelper.createBlockstate(ModJsonTemplates.VERTICAL_WINDOW_BLOCKSTATE_TEMPLATE, Registries.BLOCK.getId(table).getPath());
+        String filePath = System.getProperty("user.dir").replace("build\\datagen",
+                "src\\main\\resources") + "/assets/"+ AestheticWindows.MOD_ID+"/custom_blockstates/vertical_window.json";
+        String s = "";
+        try { s = Files.readString(Paths.get(filePath)); } catch (IOException ignored) {}
+
+        ModJsonHelper.createBlockstate(s, Registries.BLOCK.getId(table).getPath());
         blockStateModelGenerator.registerParentedItemModel(table, Identifier.of(AestheticWindows.MOD_ID, "block/"+Registries.BLOCK.getId(table).getPath()));
     }
 
