@@ -26,20 +26,13 @@ public class FourpaneEmptyWindowBlock extends BaseWindowBlock
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit)
     {
         ItemStack stack = player.getMainHandStack();
-        if (!world.isClient() && !getMaterialName().isEmpty() && isGlassBlockInStack(stack))
+        if (!world.isClient() && !getMaterialName().isEmpty())
         {
             stack.decrement(1);
-
-            String colorName;
-            if (!stack.isOf(Blocks.GLASS_PANE.asItem()))
-                colorName = Registries.ITEM.getId(stack.getItem()).getPath().replace("_stained_glass_pane", "");
-            else
-                colorName = "none";
 
             world.setBlockState(pos, ModBlocks.FOURPANE_WINDOWS.get(getMaterialName()).getDefaultState()
                     .with(FACING, state.get(FACING))
                     .with(VARIANT, state.get(VARIANT))
-                    .with(GLASS_COLOR, GlassColor.fromString(colorName))
                     .with(OPEN, state.get(OPEN))
                     .with(WATERLOGGED, state.get(WATERLOGGED)));
 

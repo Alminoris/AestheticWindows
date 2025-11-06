@@ -62,46 +62,6 @@ public class BaseWindowBlock extends YAxisRotatedBlock
 
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
 
-    public enum GlassColor implements StringIdentifiable
-    {
-        NONE("none"),
-        BLACK("black"),
-        BROWN("brown"),
-        GRAY("gray"),
-        LIGHT_GRAY("light_gray"),
-        WHITE("white"),
-        RED("red"),
-        ORANGE("orange"),
-        YELLOW("yellow"),
-        PURPLE("purple"),
-        MAGENTA("magenta"),
-        PINK("pink"),
-        BLUE("blue"),
-        CYAN("cyan"),
-        LIGHT_BLUE("light_blue"),
-        GREEN("green"),
-        LIME("lime");
-
-        private final String name;
-
-        GlassColor(String name) { this.name = name; }
-
-        public static GlassColor fromString(String name)
-        {
-            for (GlassColor inside : GlassColor.values())
-            {
-                if (inside.name.equalsIgnoreCase(name))
-                    return inside;
-            }
-            throw new IllegalArgumentException("No enum constant for name: " + name);
-        }
-
-        @Override
-        public String asString() { return this.name; }
-    }
-
-    public static final EnumProperty<BaseWindowBlock.GlassColor> GLASS_COLOR = EnumProperty.of("glass_color", BaseWindowBlock.GlassColor.class);
-
     public enum Variant implements StringIdentifiable
     {
         NORMAL("normal"),
@@ -125,26 +85,13 @@ public class BaseWindowBlock extends YAxisRotatedBlock
     {
         super(settings.nonOpaque());
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH)
-                .with(VARIANT, Variant.NORMAL).with(GLASS_COLOR, GlassColor.NONE).with(OPEN, false).with(WATERLOGGED, false));
-    }
-
-    protected boolean isGlassBlockInStack(ItemStack stack)
-    {
-        return stack.isOf(Blocks.GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.BLACK_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.BROWN_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.GRAY_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.LIGHT_GRAY_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.WHITE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.RED_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.ORANGE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.YELLOW_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.BLUE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.CYAN_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.LIGHT_BLUE_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.PURPLE_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.MAGENTA_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.PINK_STAINED_GLASS_PANE.asItem()) ||
-                stack.isOf(Blocks.GREEN_STAINED_GLASS_PANE.asItem()) || stack.isOf(Blocks.LIME_STAINED_GLASS_PANE.asItem());
+                .with(VARIANT, Variant.NORMAL).with(OPEN, false).with(WATERLOGGED, false));
     }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
-        builder.add(FACING, VARIANT, GLASS_COLOR, OPEN, WATERLOGGED);
+        builder.add(FACING, VARIANT, OPEN, WATERLOGGED);
     }
 
     @Override
