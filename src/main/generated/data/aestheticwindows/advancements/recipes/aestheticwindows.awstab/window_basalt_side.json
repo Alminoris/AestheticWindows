@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aestheticwindows:window_basalt_side"
+    ]
+  },
+  "criteria": {
+    "has_empty_window_basalt_side": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticwindows:empty_window_basalt_side"
+            ]
+          }
+        ]
+      }
+    },
+    "has_glass_pane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_pane"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aestheticwindows:window_basalt_side"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_empty_window_basalt_side",
+      "has_glass_pane",
+      "has_the_recipe"
+    ]
+  ]
+}

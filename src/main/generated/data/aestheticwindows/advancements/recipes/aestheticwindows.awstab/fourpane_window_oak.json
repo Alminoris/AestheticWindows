@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aestheticwindows:fourpane_window_oak"
+    ]
+  },
+  "criteria": {
+    "has_fourpane_empty_window_oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticwindows:fourpane_empty_window_oak"
+            ]
+          }
+        ]
+      }
+    },
+    "has_glass_pane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_pane"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aestheticwindows:fourpane_window_oak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fourpane_empty_window_oak",
+      "has_glass_pane",
+      "has_the_recipe"
+    ]
+  ]
+}

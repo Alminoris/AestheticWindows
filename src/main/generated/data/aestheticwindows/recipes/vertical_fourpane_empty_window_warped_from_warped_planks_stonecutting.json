@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "result": "aestheticwindows:vertical_fourpane_empty_window_warped",
+  "count": 1
+}

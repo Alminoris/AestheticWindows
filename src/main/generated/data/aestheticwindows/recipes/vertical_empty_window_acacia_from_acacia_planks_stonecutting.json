@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "aestheticwindows:vertical_empty_window_acacia",
+  "count": 1
+}

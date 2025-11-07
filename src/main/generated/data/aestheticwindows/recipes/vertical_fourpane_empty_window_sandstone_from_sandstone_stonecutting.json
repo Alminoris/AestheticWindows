@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sandstone"
+  },
+  "result": "aestheticwindows:vertical_fourpane_empty_window_sandstone",
+  "count": 1
+}

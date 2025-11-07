@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "aestheticwindows:vertical_fourpane_empty_window_jungle",
+  "count": 1
+}

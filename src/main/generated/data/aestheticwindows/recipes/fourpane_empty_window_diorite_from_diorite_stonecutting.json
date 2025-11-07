@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "aestheticwindows:fourpane_empty_window_diorite",
+  "count": 1
+}

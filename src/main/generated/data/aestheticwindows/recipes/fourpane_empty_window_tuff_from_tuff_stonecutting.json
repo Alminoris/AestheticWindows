@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:tuff"
+  },
+  "result": "aestheticwindows:fourpane_empty_window_tuff",
+  "count": 1
+}

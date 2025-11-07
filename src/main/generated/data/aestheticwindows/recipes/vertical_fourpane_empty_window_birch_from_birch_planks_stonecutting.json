@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_planks"
+  },
+  "result": "aestheticwindows:vertical_fourpane_empty_window_birch",
+  "count": 1
+}

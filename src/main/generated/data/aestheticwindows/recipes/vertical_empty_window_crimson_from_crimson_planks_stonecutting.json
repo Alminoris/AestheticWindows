@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "aestheticwindows:vertical_empty_window_crimson",
+  "count": 1
+}

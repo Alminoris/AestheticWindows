@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:deepslate"
+  },
+  "result": "aestheticwindows:vertical_fourpane_empty_window_deepslate",
+  "count": 1
+}

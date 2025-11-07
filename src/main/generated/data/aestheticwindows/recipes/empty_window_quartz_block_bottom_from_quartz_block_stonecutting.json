@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "aestheticwindows:empty_window_quartz_block_bottom",
+  "count": 1
+}
