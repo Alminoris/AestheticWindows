@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "result": "aestheticwindows:fourpane_empty_window_spruce"
+}

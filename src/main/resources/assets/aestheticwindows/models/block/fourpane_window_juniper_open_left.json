@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aestheticwindows:block/stripped_juniper_log",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"2": "aestheticwindows:block/juniper_log",
 		"particle": "aestheticwindows:block/stripped_juniper_log"
 	},
@@ -142,12 +142,12 @@
  			"to": [5, 14, 14],
  			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 8, 14.5]},
  			"faces": {
- 				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
- 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+ 				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -155,12 +155,12 @@
  			"to": [5, 7.5, 14],
  			"rotation": {"angle": 22.5, "axis": "y", "origin": [4, 1.5, 14.5]},
  			"faces": {
- 				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
- 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+ 				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -168,12 +168,12 @@
  			"to": [7.5, 14, 20],
  			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 8, 20.5]},
  			"faces": {
- 				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
- 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+ 				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -181,12 +181,12 @@
  			"to": [7.5, 7.5, 20],
  			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.5, 1.5, 20.5]},
  			"faces": {
- 				"north": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"east": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"south": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"west": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1"},
- 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1"}
+ 				"north": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [12, 0, 0, 1], "rotation": 270, "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [12, 0, 0, 1], "rotation": 90, "texture": "#1", "tintindex": 0}
  			}
  		},
  		{

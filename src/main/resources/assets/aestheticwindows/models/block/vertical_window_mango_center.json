@@ -2,7 +2,7 @@
  	"credit": "Made with Blockbench",
  	"textures": {
  		"0": "aestheticwindows:block/stripped_mango_log",
- 		"1": "aestheticwindows:block/glass",
+ 		"1": "minecraft:block/glass",
  		"2": "aestheticwindows:block/mango_log",
  		"particle": "aestheticwindows:block/stripped_mango_log"
  	},
@@ -64,12 +64,12 @@
   			"to": [14, 16, 8.5],
   			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
   			"faces": {
-  				"north": {"uv": [0, 1, 16, 15], "texture": "#1"},
-  				"east": {"uv": [0, 0, 1, 12], "texture": "#1"},
-  				"south": {"uv": [0, 1, 16, 15], "texture": "#1"},
-  				"west": {"uv": [0, 0, 1, 12], "texture": "#1"},
-  				"up": {"uv": [2, 7, 14, 8], "texture": "#1"},
-  				"down": {"uv": [2, 7, 14, 8], "texture": "#1"}
+  				"north": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+  				"east": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+  				"south": {"uv": [0, 1, 16, 15], "texture": "#1", "tintindex": 0},
+  				"west": {"uv": [0, 0, 1, 12], "texture": "#1", "tintindex": 0},
+  				"up": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0},
+  				"down": {"uv": [2, 7, 14, 8], "texture": "#1", "tintindex": 0}
   			}
   		},
   		{

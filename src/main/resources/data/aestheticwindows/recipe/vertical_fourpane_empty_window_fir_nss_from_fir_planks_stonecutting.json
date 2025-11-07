@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "natures_spirit:fir_planks"
+  },
+  "result": {
+    "count": 1,
+    "id": "aestheticwindows:vertical_fourpane_empty_window_fir_nss"
+  }
+}

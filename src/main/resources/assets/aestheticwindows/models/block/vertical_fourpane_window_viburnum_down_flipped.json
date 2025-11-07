@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "aestheticwindows:block/stripped_viburnum_log",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"2": "aestheticwindows:block/viburnum_log",
 		"particle": "aestheticwindows:block/stripped_viburnum_log"
 	},
@@ -116,12 +116,12 @@
  			"to": [7.5, 16, 8.5],
  			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
  			"faces": {
- 				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
- 				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
- 				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
- 				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+ 				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -129,12 +129,12 @@
  			"to": [14, 16, 8.5],
  			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 8, 8]},
  			"faces": {
- 				"north": {"uv": [16, 1, 0, 16], "texture": "#1"},
- 				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"south": {"uv": [16, 1, 0, 16], "texture": "#1"},
- 				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
- 				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+ 				"north": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [16, 1, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -142,12 +142,12 @@
  			"to": [14, 8.5, 8.5],
  			"rotation": {"angle": 0, "axis": "y", "origin": [14.5, 0.5, 8]},
  			"faces": {
- 				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
- 				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+ 				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
@@ -155,12 +155,12 @@
  			"to": [7.5, 8.5, 8.5],
  			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
  			"faces": {
- 				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"east": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"south": {"uv": [16, 0, 0, 16], "texture": "#1"},
- 				"west": {"uv": [1, 0, 0, 12], "texture": "#1"},
- 				"up": {"uv": [14, 7, 2, 8], "texture": "#1"},
- 				"down": {"uv": [14, 7, 2, 8], "texture": "#1"}
+ 				"north": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"east": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"south": {"uv": [16, 0, 0, 16], "texture": "#1", "tintindex": 0},
+ 				"west": {"uv": [1, 0, 0, 12], "texture": "#1", "tintindex": 0},
+ 				"up": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0},
+ 				"down": {"uv": [14, 7, 2, 8], "texture": "#1", "tintindex": 0}
  			}
  		},
  		{
