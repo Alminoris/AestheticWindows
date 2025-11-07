@@ -1,0 +1,12 @@
+{
+  "open_window":
+  {
+    "subtitle": "sounds.aestheticwindows.open_window",
+    "sounds": [ "aestheticwindows:open_window" ]
+  },
+  "close_window":
+  {
+    "subtitle": "sounds.aestheticwindows.close_window",
+    "sounds": [ "aestheticwindows:close_window" ]
+  }
+}

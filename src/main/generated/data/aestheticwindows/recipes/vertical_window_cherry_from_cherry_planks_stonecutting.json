@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:cherry_planks"
-  },
-  "result": "aestheticwindows:vertical_window_cherry"
-}

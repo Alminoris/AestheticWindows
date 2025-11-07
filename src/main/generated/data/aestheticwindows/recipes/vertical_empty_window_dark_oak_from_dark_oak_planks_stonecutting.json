@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "result": "aestheticwindows:vertical_empty_window_dark_oak"
+}

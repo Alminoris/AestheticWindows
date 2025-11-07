@@ -64,7 +64,7 @@ public class ModJsonHelper
     {
         String projectPath = System.getProperty("user.dir");
 
-        String filePath = projectPath.replace("build\\datagen", "src\\main\\resources") + "/data/"+ AestheticWindows.MOD_ID+"/recipes/";
+        String filePath = projectPath.replace("build\\datagen", "src\\main\\resources") + "/data/"+ AestheticWindows.MOD_ID+"/recipe/";
 
         File directory = new File(filePath);
         if (!directory.exists())
@@ -75,6 +75,32 @@ public class ModJsonHelper
 
         String jsonContent = ModJsonTemplates.STONECUTTING_RECIPE.replace("COUNT", count)
                 .replace("INGREDIENT_NAME", ingredientName).replace("OUTPUT_NAME", outputName);
+
+        try (FileWriter writer = new FileWriter(modelFile))
+        {
+            writer.write(jsonContent);
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    public static void createShapelessRecipe(String ingredientName, String ingredientName2, String outputName)
+    {
+        String projectPath = System.getProperty("user.dir");
+
+        String filePath = projectPath.replace("build\\datagen", "src\\main\\resources") + "/data/"+ AestheticWindows.MOD_ID+"/recipe/";
+
+        File directory = new File(filePath);
+        if (!directory.exists())
+            directory.mkdirs();
+
+        String fileName = outputName + ".json";
+        File modelFile = new File(directory, fileName);
+
+        String jsonContent = ModJsonTemplates.SHAPELESS_RECIPE.replace("INGREDIENT_NAME", ingredientName)
+                .replace("INGREDIENT2_NAME", ingredientName2).replace("OUTPUT_NAME", outputName);
 
         try (FileWriter writer = new FileWriter(modelFile))
         {
