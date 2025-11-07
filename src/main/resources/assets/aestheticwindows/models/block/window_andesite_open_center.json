@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "minecraft:block/andesite",
-		"1": "aestheticwindows:block/glass",
+		"1": "minecraft:block/glass",
 		"particle": "minecraft:block/andesite"
 	},
 	"elements": [

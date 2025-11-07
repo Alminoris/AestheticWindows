@@ -2,7 +2,7 @@
  	"credit": "Made with Blockbench",
  	"textures": {
  		"0": "minecraft:block/sandstone",
- 		"1": "aestheticwindows:block/glass",
+ 		"1": "minecraft:block/glass",
  		"2": "minecraft:block/sandstone",
  		"particle": "minecraft:block/sandstone"
  	},

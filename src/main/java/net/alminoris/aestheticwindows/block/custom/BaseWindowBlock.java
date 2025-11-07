@@ -148,7 +148,7 @@ public class BaseWindowBlock extends YAxisRotatedBlock
 
             return ActionResult.SUCCESS;
         }
-        return super.onUse(state, world, pos, player, hand, hit);
+        return ActionResult.SUCCESS;
     }
 
     private void playSound(World world, PlayerEntity player, SoundEvent sound, float volume, float pitch)
