@@ -20,13 +20,14 @@ public class ModLanguageProviderEsEs extends FabricLanguageProvider
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder)
     {
         Map<String, String> woodNStoneObjects = new LinkedHashMap<>();
-        woodNStoneObjects.put("staircase_", "Escalera de %s");
-        woodNStoneObjects.put("small_staircase_", "Escalera pequeña de %s");
-        woodNStoneObjects.put("stairail_", "Barandilla de %s");
-        woodNStoneObjects.put("small_stairail_", "Barandilla pequeña de %s");
-        woodNStoneObjects.put("small_stairs_", "Pequeña escalera de %s");
-        woodNStoneObjects.put("small_halfstairs_", "Pequeña media escalera de %s");
-
+        woodNStoneObjects.put("window_", "Ventana de %s");
+        woodNStoneObjects.put("vertical_window_", "Ventana vertical de %s");
+        woodNStoneObjects.put("fourpane_window_", "Ventana de cuatro paneles de %s");
+        woodNStoneObjects.put("vertical_fourpane_window_", "Ventana vertical de cuatro paneles de %s");
+        woodNStoneObjects.put("empty_window_", "Marco de ventana de %s");
+        woodNStoneObjects.put("vertical_empty_window_", "Marco de ventana vertical de %s");
+        woodNStoneObjects.put("fourpane_empty_window_", "Marco de ventana de cuatro paneles de %s");
+        woodNStoneObjects.put("vertical_fourpane_empty_window_", "Marco de ventana vertical de cuatro paneles de %s");
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();
         stoneMaterials.put("stone", "piedra");

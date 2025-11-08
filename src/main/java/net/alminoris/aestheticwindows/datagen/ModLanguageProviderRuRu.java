@@ -20,13 +20,14 @@ public class ModLanguageProviderRuRu extends FabricLanguageProvider
     public void generateTranslations(RegistryWrapper.WrapperLookup wrapperLookup, TranslationBuilder translationBuilder)
     {
         Map<String, String> woodNStoneObjects = new LinkedHashMap<>();
-        woodNStoneObjects.put("staircase_", "Лестница из %s");
-        woodNStoneObjects.put("small_staircase_", "Малая лестница из %s");
-        woodNStoneObjects.put("stairail_", "Перила из %s");
-        woodNStoneObjects.put("small_stairail_", "Малые перила из %s");
-        woodNStoneObjects.put("small_stairs_", "Малая лестница из %s");
-        woodNStoneObjects.put("small_halfstairs_", "Малые полулестницы из %s");
-
+        woodNStoneObjects.put("window_", "Окно из %s");
+        woodNStoneObjects.put("vertical_window_", "Вертикальное окно из %s");
+        woodNStoneObjects.put("fourpane_window_", "Четырёхсекционное окно из %s");
+        woodNStoneObjects.put("vertical_fourpane_window_", "Вертикальное четырёхсекционное окно из %s");
+        woodNStoneObjects.put("empty_window_", "Оконная рама из %s");
+        woodNStoneObjects.put("vertical_empty_window_", "Вертикальная оконная рама из %s");
+        woodNStoneObjects.put("fourpane_empty_window_", "Четырёхсекционная оконная рама из %s");
+        woodNStoneObjects.put("vertical_fourpane_empty_window_", "Вертикальная четырёхсекционная оконная рама из %s");
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();
         stoneMaterials.put("stone", "камня");
