@@ -20,12 +20,14 @@ public class ModLanguageProviderFrFr extends FabricLanguageProvider
     public void generateTranslations(TranslationBuilder translationBuilder)
     {
         Map<String, String> woodNStoneObjects = new LinkedHashMap<>();
-        woodNStoneObjects.put("staircase_", "Escalier en %s");
-        woodNStoneObjects.put("small_staircase_", "Petit escalier en %s");
-        woodNStoneObjects.put("stairail_", "Rampe en %s");
-        woodNStoneObjects.put("small_stairail_", "Petite rampe en %s");
-        woodNStoneObjects.put("small_stairs_", "Petits escaliers en %s");
-        woodNStoneObjects.put("small_halfstairs_", "Petits demi-escaliers en %s");
+        woodNStoneObjects.put("window_", "Fenêtre en %s");
+        woodNStoneObjects.put("vertical_window_", "Fenêtre verticale en %s");
+        woodNStoneObjects.put("fourpane_window_", "Fenêtre à quatre vitres en %s");
+        woodNStoneObjects.put("vertical_fourpane_window_", "Fenêtre verticale à quatre vitres en %s");
+        woodNStoneObjects.put("empty_window_", "Cadre de fenêtre en %s");
+        woodNStoneObjects.put("vertical_empty_window_", "Cadre de fenêtre vertical en %s");
+        woodNStoneObjects.put("fourpane_empty_window_", "Cadre de fenêtre à quatre vitres en %s");
+        woodNStoneObjects.put("vertical_fourpane_empty_window_", "Cadre de fenêtre vertical à quatre vitres en %s");
 
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();

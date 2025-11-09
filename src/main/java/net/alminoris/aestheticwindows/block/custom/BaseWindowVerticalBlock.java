@@ -153,7 +153,7 @@ public class BaseWindowVerticalBlock extends YAxisRotatedBlock
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit)
     {
-        if (!player.getMainHandStack().isEmpty() || state.get(VARIANT) == Variant.CENTER)
+        if (!player.getMainHandStack().isEmpty())
         {
             return ActionResult.PASS;
         }
