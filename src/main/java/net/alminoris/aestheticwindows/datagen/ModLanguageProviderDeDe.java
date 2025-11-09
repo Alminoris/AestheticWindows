@@ -20,12 +20,14 @@ public class ModLanguageProviderDeDe extends FabricLanguageProvider
     public void generateTranslations(TranslationBuilder translationBuilder)
     {
         Map<String, String> woodNStoneObjects = new LinkedHashMap<>();
-        woodNStoneObjects.put("staircase_", "Treppe aus %s");
-        woodNStoneObjects.put("small_staircase_", "Kleine Treppe aus %s");
-        woodNStoneObjects.put("stairail_", "Geländer aus %s");
-        woodNStoneObjects.put("small_stairail_", "Kleines Geländer aus %s");
-        woodNStoneObjects.put("small_stairs_", "Kleine Treppe aus %s");
-        woodNStoneObjects.put("small_halfstairs_", "Kleine Halbt reppe aus %s");
+        woodNStoneObjects.put("window_", "Fenster aus %s");
+        woodNStoneObjects.put("vertical_window_", "Vertikales Fenster aus %s");
+        woodNStoneObjects.put("fourpane_window_", "Vierfenster aus %s");
+        woodNStoneObjects.put("vertical_fourpane_window_", "Vertikales Vierfenster aus %s");
+        woodNStoneObjects.put("empty_window_", "Fensterrahmen aus %s");
+        woodNStoneObjects.put("vertical_empty_window_", "Vertikaler Fensterrahmen aus %s");
+        woodNStoneObjects.put("fourpane_empty_window_", "Vierteiliger Fensterrahmen aus %s");
+        woodNStoneObjects.put("vertical_fourpane_empty_window_", "Vertikaler vierteiliger Fensterrahmen aus %s");
 
         Map<String, String> stoneMaterials = new LinkedHashMap<>();
         stoneMaterials.put("stone", "Stein");
